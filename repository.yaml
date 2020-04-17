@@ -1,0 +1,12 @@
+version: hub/v1alpha
+kind: repository
+name: XPA-HUB Repository
+image: <REPO LOGO>
+summary: |
+  This REPO...
+description: |
+  THIS REPO descroption...
+contributor:
+  name: Contributor
+  email: no-reply@email.com
+  url: http://www.cognitivescale.com
