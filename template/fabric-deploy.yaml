@@ -20,3 +20,5 @@ connections:
         value: zip
   environments:
     - environment: PROD
+---
+# More fabric metadata
