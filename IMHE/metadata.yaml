@@ -1,0 +1,21 @@
+version: hub/v1alpha
+kind: installable
+name: IHME COVID-19 Projections 
+image: ihme.jpeg
+summary: |
+   IHME’s COVID-19 projections show demand for hospital services in each state.
+description: |
+  This datasets provides projections that show demand for hospital services in each state across the US.The Institute for Health Metrics and Evaluation (IHME) is an independent global health research center at the University of Washington.
+  IHME is responsible for providing updated projections. For more up to date dataset, please visit the [IHME COVID-19 Projections] (https://covid19.healthdata.org/united-states-of-america) website.
+license: <FILE LOCATION>
+contributor:
+  name: Contributor
+  email: no-reply@email.com
+  url: http://www.cognitivescale.com
+assets:
+  - type: dataset
+    name: CORD-19 Dataset
+    location: https://xpa-hub.s3.amazonaws.com/cord-19/CORD-19-research-challenge.zip
+  - type: certifai-scan
+    name: Certifai Scan
+    location: certifai/certifai.yaml
