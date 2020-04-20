@@ -6,7 +6,7 @@ This repository contains trusted AI Assets for the XPRIZE Pandemic Alliance init
 
 |   Asset Name  |   Asset Provider    |   Asset Type  |   Description / Linked Asset Repository |
 |---------------|-----------------|---------------|-----------------------------------------|
-|   COVID-19 Dataset    |   JHU |   Dataset |   Contains daily cases reports data from Johns Hopkins University.[Repo Link](https://github.com/lkrishna-cs/COVID-19)    |
+|   COVID-19 Dataset    |   Johns Hopkins University(JHU) |   Dataset |   Contains daily cases reports data from Johns Hopkins University.[Repo Link](https://github.com/lkrishna-cs/COVID-19)    |
 |   COVID-19 Open Research Dataset (CORD-19)    |   Allen AI Institute       |     Dataset   | Contains over 27000 publications & research articles around COVID-19    |
 |   COVID-19 Projections    |   IHME Washington     |     Dataset   | Covid-19 Resource Utilization Projections   |
 |   Member  Dataset      | CognitiveScale  |     Dataset   | Synthetic Datasets around members and claims   |
