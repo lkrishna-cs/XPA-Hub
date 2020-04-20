@@ -1,9 +1,0 @@
-{
-  "type": "Model",
-  "assetDisplayName": "Claims Classification Model",
-  "image":"anthem-logo.png",
-  "description": "This model predicts the likelihood of an inquiry call based on member claims data",
-  "summary": "This model predicts the likelihood of an inquiry call based on member claims data. This is a binary classification model",
-  "githubUsername": "lkrishna-cs",
-  "dateUpdated": "2020-04-15"
-}

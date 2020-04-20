@@ -1,0 +1,20 @@
+version: hub/v1alpha
+kind: installable
+name: Synthetic Dataset for Members
+image: anthem-logo.png
+summary: |
+  This dataset is intended to be a synthetic dataset around healthcare members from a payer's perspective. This should eventually be replace by [Anthem Sandbox](https://anthem.ai/sandbox/) dataset
+description: |
+  This dataset contains 10000 members generated synthetically using Synthetic Data Generation utilities. The data represents a sub-set of all member data and is not a complete representation of a healthcare member.
+license: <FILE LOCATION>
+contributor:
+  name: Contributor
+  email: no-reply@email.com
+  url: http://www.cognitivescale.com
+assets:
+  - type: dataset
+    name:  Member Dataset
+    location: data/member.csv
+  - type: certifai-scan
+    name: Certifai Scan
+    location: certifai/certifai.yaml
