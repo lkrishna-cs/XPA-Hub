@@ -1,0 +1,56 @@
+{
+    "scan": {
+        "scan_id": "b99f5b12b937",
+        "evaluation_type": "atx",
+        "started": "2020-03-25T19:16:34",
+        "ended": "2020-03-26T00:49:14",
+        "name": "Baseline evaluation of 2 models",
+        "description": "This evaluation compares the robustness, accuracy and explanations for 4 candidate models. Fairness is not applicable to this use case."
+    },
+    "model_use_case": {
+        "name": "HealthCare: COVID-19",
+        "model_use_case_id": "c12e/healthcare/claims",
+        "performance_metrics": [
+            {
+                "metric": "Accuracy",
+                "name": "Accuracy"
+            }
+        ],
+        "atx_performance_metric_name": "Accuracy",
+        "task_type": "binary-classification",
+        "description": "",
+        "author": "info@cognitivescale.com"
+    },
+    "model": {
+        "model_id": "AutoML",
+        "name": "AutoML Classifier",
+        "predict_endpoint": "http://127.0.0.1:8003/predict",
+        "performance_metric_values": [
+            {
+                "name": "Accuracy",
+                "value": 0.74033
+            }
+        ],
+        "description": "AutoML Classifier"
+    },
+    "atx": 68.50825,
+    "components_measured": [
+        "explainability",
+        "fairness",
+        "performance",
+        "robustness"
+    ],
+    "component_scores": {
+        "fairness": 100.0,
+        "robustness": 100.0,
+        "explainability": 0.0,
+        "performance": 74.033
+    },
+    "aspect_weights": {
+        "robustness": 1.0,
+        "fairness": 1.0,
+        "explainability": 1.0,
+        "performance": 1.0
+    },
+    "status": "Completed"
+}

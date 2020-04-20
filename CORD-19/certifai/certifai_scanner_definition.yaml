@@ -1,0 +1,83 @@
+scan:
+  output:
+    path: ../local_reports
+
+model_use_case:
+  atx_performance_metric_name: Accuracy
+  author: info@cognitivescale.com
+  description: ''
+  model_use_case_id: c12e/use-case-id
+  name: 'Name of the Model use-case'
+  performance_metrics:
+  - metric: Accuracy
+    name: Accuracy
+  task_type: binary-classification
+
+evaluation:
+  description: This evaluation compares the robustness, accuracy, fairness and explanations for 4 candidate models.
+  evaluation_dataset_id: eval
+  evaluation_types:
+  - robustness
+  - fairness
+  - explanation
+  - explainability
+  - performance
+  explanation_dataset_id: explan
+  test_dataset_id: eval
+  fairness_grouping_features:
+    - name: Enter the name of the sensitive feature.
+  feature_restrictions:
+  - feature_name: age
+    restriction_string: no changes
+  - feature_name: status
+    restriction_string: no changes
+  - feature_name: foreign
+    restriction_string: no changes
+  name: Baseline evaluation of 4 models
+  prediction_description: Will a loan be granted?
+  prediction_favorability: explicit
+  prediction_values:
+  - favorable: true
+    name: Loan Granted
+    value: 1
+  - favorable: false
+    name: Loan Denied
+    value: 2
+
+models:
+- author: ''
+  description: Description about the Model
+  model_id: model_id
+  name: Model Name (Support Vector Classifier)
+  performance_metric_values:
+  - name: Accuracy
+    value: 0.70
+  predict_endpoint: http://127.0.0.1:5111/endpoint
+- author: ''
+  description: Description of another model
+  name: Model Name (Logistic Regression)
+  performance_metric_values:
+  - name: Accuracy
+    value: 0.75
+  predict_endpoint: http://127.0.0.1:5112/endpoint
+
+datasets:
+- dataset_id: evaluation_set
+  description: Representative sample of the full dataset
+  file_type: csv
+  has_header: true
+  name: Evaluation dataset
+  url: file:file_location or cloud_storage_url
+- dataset_id: explanation
+  description: ''
+  file_type: csv
+  has_header: true
+  name: Representative sample for explanation dataset
+  url: file:file_location or cloud_storage_url
+
+dataset_schema:
+  feature_schemas:
+  - feature_name: feature_name1
+  - feature_name: feature_name2
+  outcome_column: target
+

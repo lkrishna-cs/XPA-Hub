@@ -1,0 +1,23 @@
+version: hub/v1alpha
+kind: installable
+name: COVID-19 Open Research Dataset (CORD-19)
+image: CORD-19-logo.png
+summary: |
+  This dataset is intended to mobilize researchers to apply recent advances in natural language processing to generate new insights in support of the fight against the COVID-19 global pandemic
+description: |
+  In response to the COVID-19 pandemic, the Allen Institute for AI has partnered with leading research groups to prepare and distribute the COVID-19 Open Research Dataset (CORD-19),
+  a free resource of over 51,000 scholarly articles, including over 40,000 with full text, about COVID-19 and the coronavirus family of viruses for use by the global research community.
+  This dataset is intended to mobilize researchers to apply recent advances in natural language processing to generate new insights in support of the fight against this infectious disease.
+  The corpus will be updated weekly as new research is published in peer-reviewed publications and archival services like bioRxiv, medRxiv, and others.",
+license: <FILE LOCATION>
+contributor:
+  name: Contributor
+  email: no-reply@email.com
+  url: http://www.cognitivescale.com
+assets:
+  - type: dataset
+    name: CORD-19 Dataset
+    location: https://xpa-hub.s3.amazonaws.com/cord-19/CORD-19-research-challenge.zip
+  - type: certifai-scan
+    name: Certifai Scan
+    location: certifai/certifai.yaml
