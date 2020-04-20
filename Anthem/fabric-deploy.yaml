@@ -1,22 +1,44 @@
 camel: 1.0.0
-name: default/cord-19-dataset
-title: CORD-19 Dataset
-description: Contains scholarly articles and publications for COVID-19 Pandemic
+name: default/member_dataset
+title: Healthcare Member Dataset
+description: Contains synthetically generated  dataset for 10000 members
 fields:
-  - name: Title
+  - name: member_id
     type: string
-  - name: url
+  - name: membership_effective_dt
+    type: date
+  - name: membership_end_dt
+    type: date
+  - name: member_sequence_number
+    type: number
+  - name: membership_status_cd
     type: string
-  - name: category
+  - name: member_address_zip
     type: string
+  - name: member_first_name
+    type: string
+  - name: member_middle_initial
+    type: string
+  - name: member_last_name
+    type: string
+  - name: member_birth_dt
+    type: date
+  - name: member_gender_cd
+    type: string
+  - name: member_pcp_auto_assign_ind
+    type: string
+  - name: contract_group_identifier
+    type: string
+  - name: claimids
+    type: array
 connections:
   default:
     name: cortex/content
     type: managedContent
     query:
       - name: key
-        value: cord-19.zip
+        value: member.csv
       - name: contentType
-        value: zip
+        value: csv
   environments:
     - environment: PROD
