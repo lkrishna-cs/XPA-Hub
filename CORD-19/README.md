@@ -1,10 +1,8 @@
-# Example template
-This is a template for creating `<NAME>`.
+# CORD-19 Dataset
 
-If a `README.md` is not provided we'll generate a view from `metadata.yaml`
+This dataset is intended to mobilize researchers to apply recent advances in natural language processing to generate new insights in support of the fight against the COVID-19 global pandemic.
 
 ## Assets
-* Sample Dataset
 * [certifai/](certifai/) - Certifai scan
 
 ## Usage

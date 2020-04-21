@@ -1,0 +1,2 @@
+member_id,membership_effective_dt,membership_end_dt,member_sequence_number,membership_status_cd,member_address_zip,member_first_name,member_middle_initial,member_last_name,member_birth_dt,member_gender_cd,member_pcp_auto_assign_ind,contract_group_identifier,claimids
+1586074845,11/22/15,12/1/22,1,A,76555,Erica,T,Laabs,4/5/55,F,Y,W7366574,"20200451UI411175,2020045681101356,2020045CY7429602,2020045DU4837976,2020045DVD793789,2020045F62137452,2020045H2L312208,2020045M37665631,2020045RAR982584,2020045TZB367370"
