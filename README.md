@@ -10,6 +10,5 @@ This repository contains trusted AI Assets for the XPRIZE Pandemic Alliance init
 |   CORD-19 Open Research Dataset    |   Allen AI Institute       |     Dataset   | Contains over 27000 publications & research articles around COVID-19    |
 |   IMHE COVID-19 Projections  Dataset  |   IHME Washington     |     Dataset   | Covid-19 Resource Utilization Projections   |
 |   Member  Dataset      | CognitiveScale  |     Dataset   | Synthetic Datasets around members and claims   |
-|   Novel Coronavirus (COVID-19) Cases  |   Johns Hopkins University    |    Dataset   |   Epidemiological data from Johns Hopkins School of Public Health. [Repo Link](https://github.com/CSSEGISandData/COVID-19) |
 |   SciBERT Model    | Allen AI Institute  |    Model     | A set of NLP models trained on scientific text. [Repo Link](https://github.com/lkrishna-cs/scibert) |
 |   CV19 Index Model    |   ClosedLoop.ai   |   Model   |   The COVID-19 Vulnerability Index (CV19 Index) is a predictive model that identifies people who are likely to have a heightened vulnerability to severe complications from COVID-19. [Repo Link](https://github.com/lkrishna-cs/cv19index)
