@@ -3,7 +3,7 @@ kind: installable
 name: Synthetic Dataset for Members
 image: anthem-logo.png
 summary: |
-  This dataset is intended to be a synthetic dataset around healthcare members from a payer's perspective. This should eventually be replace by [Anthem Sandbox](https://anthem.ai/sandbox/) dataset
+  This dataset is intended to be a synthetic dataset around healthcare members from a payer's perspective.
 description: |
   This dataset contains 10000 members generated synthetically using Synthetic Data Generation utilities. The data represents a sub-set of all member data and is not a complete representation of a healthcare member.
 license: <FILE LOCATION>

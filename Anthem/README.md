@@ -4,7 +4,7 @@ This dataset is intended to be a synthetic dataset around healthcare members fro
 
 ## Assets
 * [data/](data/) - Dataset 
-* [certifai/](certifai/) - Certifai scan
+* [certifai/](certifai/) - Trust Index
 
 ## Usage
 Use of this asset in unrestricted
