@@ -1,6 +1,6 @@
 # Member Dataset
 
-This dataset is intended to be a synthetic dataset around healthcare members from a payer's perspective. 
+This dataset is from Anthem and is intended to be a synthetic dataset around healthcare members from a payer's perspective. 
 
 ## Assets
 * [data/](data/) - Dataset 
