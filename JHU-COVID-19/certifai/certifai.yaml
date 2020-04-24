@@ -1,0 +1,28 @@
+{
+        "scan": {
+        "scan_id": "b99f5b12b988",
+        "evaluation_type": "atx",
+        "started": "2020-03-25T19:16:34",
+        "ended": "2020-03-26T00:49:14",
+        "name": "Baseline evaluation of datasets",
+        "description": "This evaluation provides the efficacy of the dataset against 6 dimensions as well as a Trust Index score"
+    },
+    "atx": "78.3",
+    "components_measured": [
+        "completeness",
+        "accuracy",
+        "provenance",
+        "currentness",
+        "confidentiality",
+        "consistency"
+    ],
+    "component_scores": {
+        "completness": 100.0,
+        "accuracy": 50.0,
+        "provenance": 75.0,
+        "currentness": 95.0,
+        "confidentiality": 100.0,
+        "consistency": 50.0
+    },
+    "status": "Completed"
+}
