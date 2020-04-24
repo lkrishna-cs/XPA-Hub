@@ -1,7 +1,7 @@
 version: hub/v1alpha
 kind: installable
 name: COVID-19 Vulnerability Index
-image: CL-Logo.png
+image: CL-logo.png
 summary: |
   The COVID-19 Vulnerability Index (CV19 Index)
 description: |
