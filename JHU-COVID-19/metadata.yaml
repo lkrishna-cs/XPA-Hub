@@ -1,6 +1,6 @@
 version: hub/v1alpha
 kind: installable
-name: COVID-19 Dataset Johns Hopkins CSSE
+name: Johns Hopkins Dataset (COVID-19)
 image: jhu-logo.png
 summary: |
   This dataset contains daily case reports across all countries as well as for US states.
