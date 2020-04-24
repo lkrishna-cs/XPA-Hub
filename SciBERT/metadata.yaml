@@ -1,0 +1,14 @@
+version: hub/v1alpha
+kind: installable
+name: SciBERT model for scientific text.
+image: AI2-logo.png
+summary: |
+  SciBERT is a BERT model trained on scientific text.
+description: |
+  Browse git repo for more details
+license: <FILE LOCATION>
+contributor:
+  name: Contributor
+  email: no-reply@email.com
+  url: http://www.cognitivescale.com
+gitUrl: https://github.com/CSSEGISandData/COVID-19
