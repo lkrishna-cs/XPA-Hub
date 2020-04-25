@@ -1,0 +1,20 @@
+version: hub/v1alpha
+kind: installable
+name: NCHS - Age-adjusted Death Rates for Selected Major Causes of Death
+image: logo.png
+summary: |
+  This dataset of U.S. mortality trends since 1900 highlights trends in age-adjusted death rates for five selected major causes of death.
+description: |
+This dataset of U.S. mortality trends since 1900 highlights trends in age-adjusted death rates for five selected major causes of death.
+Age-adjusted death rates (deaths per 100,000) after 1998 are calculated based on the 2000 U.S. standard population. Populations used for computing death rates for 2011–2017 are postcensal estimates based on the 2010 census, estimated as of July 1, 2010. Rates for census years are based on populations enumerated in the corresponding censuses. Rates for noncensus years between 2000 and 2010 are revised using updated intercensal population estimates and may differ from rates previously published. Data on age-adjusted death rates prior to 1999 are taken from historical data (see References below).
+Revisions to the International Classification of Diseases (ICD) over time may result in discontinuities in cause-of-death trends.
+license: <FILE LOCATION>
+contributor:
+  name: Contributor
+  email: no-reply@email.com
+  url: http://www.cognitivescale.com
+assets:
+  - type: dataset
+    name: Age-adjusted Death Rates for Selected Major Causes of Death
+  - location: data/NCHS_-_Age-adjusted_Death_Rates_for_Selected_Major_Causes_of_Death.csv
+gitUrl: https://github.com/lkrishna-cs/XPA-Hub/tree/master/age-adjusted-death-rates-for-the-top-leading-causes-of-death
