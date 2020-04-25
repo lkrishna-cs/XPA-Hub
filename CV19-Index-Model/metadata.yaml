@@ -5,7 +5,8 @@ image: CL-logo.png
 summary: |
   The COVID-19 Vulnerability Index (CV19 Index)
 description: |
-  Browse git repo for more details
+  The COVID-19 Vulnerability Index (CV19 Index) is a predictive model that identifies people who are likely to have a heightened vulnerability to severe complications from COVID-19 (commonly referred to as “The Coronavirus”). The CV19 Index is intended to help hospitals, federal / state / local public health agencies and other healthcare organizations in their work to identify, plan for, respond to, and reduce the impact of COVID-19 in their communities.
+  (Full information on the CV19 Index, including the links to a full FAQ, User Forums, and information about upcoming Webinars is available at [http://cv19index.com)](http://cv19index.com)
 license: <FILE LOCATION>
 contributor:
   name: Contributor
