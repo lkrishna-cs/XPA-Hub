@@ -1,0 +1,18 @@
+version: hub/v1alpha
+kind: installable
+name: Provisional Death Counts for Coronavirus Disease(COVID-19)
+image: logo.png
+summary: |
+  This report provides a weekly summary of deaths with coronavirus disease 2019 (COVID-19) by select geographic and demographic variables. 
+description: |
+  This report provides a weekly summary of deaths with coronavirus disease 2019 (COVID-19) by select geographic and demographic variables. In this release, counts of deaths are provided by the race and Hispanic origin of the decedent.
+license: <FILE LOCATION>
+contributor:
+  name: Contributor
+  email: no-reply@email.com
+  url: http://www.cognitivescale.com
+assets:
+  - type: dataset
+    name: Provisional Death Counts for Coronavirus Disease
+    location: data/Provisional_Death_Counts_for_Coronavirus_Disease__COVID-19___Weekly_State-Specific_Data_Updates.csv
+gitUrl: https://github.com/lkrishna-cs/XPA-Hub/tree/master/provisional-death-counts-for-coronavirus-disease
