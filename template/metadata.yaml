@@ -1,7 +1,7 @@
 version: hub/v1alpha
 kind: installable
 name: Asset template
-image: logo.png
+image: CortexHub.png
 summary: |
   Add summary of the asset (100 chars). Use this as a template to create and publish new assets
 description: |
@@ -18,3 +18,4 @@ assets:
   - type: certifai-scan
     name: Certifai Scan
     location: certifai/certifai.yaml
+gitUrl: https://github.com/lkrishna-cs/XPA-Hub/tree/master/template
