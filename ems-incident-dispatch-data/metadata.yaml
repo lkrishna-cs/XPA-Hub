@@ -1,0 +1,18 @@
+version: hub/v1alpha
+kind: installable
+name: EMS Incident Dispatch Data
+image: logo.png
+summary: |
+  EMS Incident Dispatch Data
+description: |
+  EMS Incident Dispatch Data
+license: <FILE LOCATION>
+contributor:
+  name: Contributor
+  email: no-reply@email.com
+  url: http://www.cognitivescale.com
+assets:
+  - type: dataset
+    name: EMS Incident Dispatch Data
+  - location: data/EMS_Incident_Dispatch_Data.csv
+gitUrl: https://github.com/lkrishna-cs/XPA-Hub/tree/master/ems-incident-dispatch-data

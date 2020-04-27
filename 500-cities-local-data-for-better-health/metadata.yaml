@@ -1,0 +1,18 @@
+version: hub/v1alpha
+kind: installable
+name: 500 Cities Local Data For Better Health
+image: logo.png
+summary: |
+  500 Cities Local Data For Better Health
+description: |
+  500 Cities Local Data For Better Health
+license: <FILE LOCATION>
+contributor:
+  name: Contributor
+  email: no-reply@email.com
+  url: http://www.cognitivescale.com
+assets:
+  - type: dataset
+    name: 500 Cities Local Data For Better Health
+  - location: data/500_Cities__Local_Data_for_Better_Health__2019_release.csv
+gitUrl: https://github.com/lkrishna-cs/XPA-Hub/tree/master/500-cities-local-data-for-better-health

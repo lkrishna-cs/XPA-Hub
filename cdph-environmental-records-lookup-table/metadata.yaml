@@ -1,0 +1,18 @@
+version: hub/v1alpha
+kind: installable
+name: CDPH Environmental Records Lookup Table
+image: logo.png
+summary: |
+  CDPH Environmental Records Lookup Table
+description: |
+  CDPH Environmental Records Lookup Table
+license: <FILE LOCATION>
+contributor:
+  name: Contributor
+  email: no-reply@email.com
+  url: http://www.cognitivescale.com
+assets:
+  - type: dataset
+    name: CDPH Environmental Records Lookup Table
+  - location: data/CDPH_Environmental_Records_Lookup_Table.csv
+gitUrl: https://github.com/lkrishna-cs/XPA-Hub/tree/master/cdph-environmental-records-lookup-table

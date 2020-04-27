@@ -1,0 +1,18 @@
+version: hub/v1alpha
+kind: installable
+name: Food Establishment Inspection Data
+image: logo.png
+summary: |
+  Food Establishment Inspection Data
+description: |
+  Food Establishment Inspection Data
+license: <FILE LOCATION>
+contributor:
+  name: Contributor
+  email: no-reply@email.com
+  url: http://www.cognitivescale.com
+assets:
+  - type: dataset
+    name: Food Establishment Inspection Data
+  - location: data/Food_Establishment_Inspection_Data.csv
+gitUrl: https://github.com/lkrishna-cs/XPA-Hub/tree/master/food-establishment-inspection

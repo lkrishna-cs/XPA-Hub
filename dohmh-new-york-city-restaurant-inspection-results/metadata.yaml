@@ -1,0 +1,18 @@
+version: hub/v1alpha
+kind: installable
+name: Dohmh - New York City Restaurant Inspection Results
+image: logo.png
+summary: |
+  Dohmh - New York City Restaurant Inspection Results
+description: |
+  Dohmh - New York City Restaurant Inspection Results
+license: <FILE LOCATION>
+contributor:
+  name: Contributor
+  email: no-reply@email.com
+  url: http://www.cognitivescale.com
+assets:
+  - type: dataset
+    name: Dohmh - New York City Restaurant Inspection Results
+  - location: data/DOHMH_New_York_City_Restaurant_Inspection_Results.csv
+gitUrl: https://github.com/lkrishna-cs/XPA-Hub/tree/master/dohmh-new-york-city-restaurant-inspection-results

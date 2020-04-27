@@ -1,0 +1,22 @@
+version: hub/v1alpha
+kind: installable
+name: Behavioral Risk Factors -  Selected Metropolitan Area Risk Trends Smart County
+    Prevalence
+image: logo.png
+summary: |
+  Behavioral Risk Factors -  Selected Metropolitan Area Risk Trends Smart County
+    Prevalence
+description: |
+  Behavioral Risk Factors -  Selected Metropolitan Area Risk Trends Smart County
+    Prevalence
+license: <FILE LOCATION>
+contributor:
+  name: Contributor
+  email: no-reply@email.com
+  url: http://www.cognitivescale.com
+assets:
+  - type: dataset
+    name: Behavioral Risk Factors -  Selected Metropolitan Area Risk Trends Smart County
+    Prevalence
+  - location: data/Behavioral_Risk_Factors__Selected_Metropolitan_Area_Risk_Trends__SMART__County_Prevalence_Data.csv
+gitUrl: https://github.com/lkrishna-cs/XPA-Hub/tree/master/behavioral-risk-factors-selected-metropolitan-area-risk-trends-smart-county-prevalence

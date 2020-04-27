@@ -1,0 +1,18 @@
+version: hub/v1alpha
+kind: installable
+name: Analysis Neighborhoods
+image: logo.png
+summary: |
+  Analysis Neighborhoods
+description: |
+  Analysis Neighborhoods
+license: <FILE LOCATION>
+contributor:
+  name: Contributor
+  email: no-reply@email.com
+  url: http://www.cognitivescale.com
+assets:
+  - type: dataset
+    name: Analysis Neighborhoods
+  - location: data/Analysis_Neighborhoods.csv
+gitUrl: https://github.com/lkrishna-cs/XPA-Hub/tree/master/analysis-neighborhoods

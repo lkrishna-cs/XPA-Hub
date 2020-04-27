@@ -1,0 +1,18 @@
+version: hub/v1alpha
+kind: installable
+name: Behavioral Risk Factors -  Vision Amp Eye Health
+image: logo.png
+summary: |
+  Behavioral Risk Factors -  Vision Amp Eye Health
+description: |
+  Behavioral Risk Factors -  Vision Amp Eye Health
+license: <FILE LOCATION>
+contributor:
+  name: Contributor
+  email: no-reply@email.com
+  url: http://www.cognitivescale.com
+assets:
+  - type: dataset
+    name: Behavioral Risk Factors -  Vision Amp Eye Health
+  - location: data/BRFSS_Vision_Module_Data___Vision___Eye_Health.csv
+gitUrl: https://github.com/lkrishna-cs/XPA-Hub/tree/master/behavioral-risk-factors-vision-amp-eye-health

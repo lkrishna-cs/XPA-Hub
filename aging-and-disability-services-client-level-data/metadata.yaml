@@ -1,0 +1,18 @@
+version: hub/v1alpha
+kind: installable
+name: Aging And Disability Services Client Level Data
+image: logo.png
+summary: |
+  Aging And Disability Services Client Level Data
+description: |
+  Aging And Disability Services Client Level Data
+license: <FILE LOCATION>
+contributor:
+  name: Contributor
+  email: no-reply@email.com
+  url: http://www.cognitivescale.com
+assets:
+  - type: dataset
+    name: Aging And Disability Services Client Level Data
+  - location: data/Aging_and_Disability_Services_-_Client_Level_Data.csv
+gitUrl: https://github.com/lkrishna-cs/XPA-Hub/tree/master/aging-and-disability-services-client-level-data

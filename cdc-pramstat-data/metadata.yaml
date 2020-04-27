@@ -1,0 +1,18 @@
+version: hub/v1alpha
+kind: installable
+name: CDC Pramstat Data
+image: logo.png
+summary: |
+  CDC Pramstat Data
+description: |
+  CDC Pramstat Data
+license: <FILE LOCATION>
+contributor:
+  name: Contributor
+  email: no-reply@email.com
+  url: http://www.cognitivescale.com
+assets:
+  - type: dataset
+    name: CDC Pramstat Data
+  - location: data/CDC_PRAMStat_Data.csv
+gitUrl: https://github.com/lkrishna-cs/XPA-Hub/tree/master/cdc-pramstat-data

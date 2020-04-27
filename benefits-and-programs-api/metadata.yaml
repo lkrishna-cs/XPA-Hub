@@ -1,0 +1,18 @@
+version: hub/v1alpha
+kind: installable
+name: Benefits And Programs Api
+image: logo.png
+summary: |
+  Benefits And Programs Api
+description: |
+  Benefits And Programs Api
+license: <FILE LOCATION>
+contributor:
+  name: Contributor
+  email: no-reply@email.com
+  url: http://www.cognitivescale.com
+assets:
+  - type: dataset
+    name: Benefits And Programs Api
+  - location: data/Benefits_and_Programs_API.csv
+gitUrl: https://github.com/lkrishna-cs/XPA-Hub/tree/master/benefits-and-programs-api

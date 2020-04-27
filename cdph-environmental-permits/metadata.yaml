@@ -1,0 +1,18 @@
+version: hub/v1alpha
+kind: installable
+name: CDPH Environmental Permits
+image: logo.png
+summary: |
+  CDPH Environmental Permits
+description: |
+  CDPH Environmental Permits
+license: <FILE LOCATION>
+contributor:
+  name: Contributor
+  email: no-reply@email.com
+  url: http://www.cognitivescale.com
+assets:
+  - type: dataset
+    name: CDPH Environmental Permits
+  - location: data/CDPH_Environmental_Permits.csv
+gitUrl: https://github.com/lkrishna-cs/XPA-Hub/tree/master/cdph-environmental-permits

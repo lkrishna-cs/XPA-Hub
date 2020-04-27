@@ -1,0 +1,18 @@
+version: hub/v1alpha
+kind: installable
+name: Minority Veterans Demographics
+image: logo.png
+summary: |
+  Minority Veterans Demographics
+description: |
+  Minority Veterans Demographics
+license: <FILE LOCATION>
+contributor:
+  name: Contributor
+  email: no-reply@email.com
+  url: http://www.cognitivescale.com
+assets:
+  - type: dataset
+    name: Minority Veterans Demographics
+  - location: data/minority-veterans-demographics.csv
+gitUrl: https://github.com/lkrishna-cs/XPA-Hub/tree/master/minority-veterans-demographics
