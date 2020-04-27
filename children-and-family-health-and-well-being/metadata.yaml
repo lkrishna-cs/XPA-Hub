@@ -1,0 +1,18 @@
+version: hub/v1alpha
+kind: installable
+name: Children And Family Health And Well Being
+image: logo.png
+summary: |
+  Children And Family Health And Well Being
+description: |
+  Children And Family Health And Well Being
+license: <FILE LOCATION>
+contributor:
+  name: Contributor
+  email: no-reply@email.com
+  url: http://www.cognitivescale.com
+assets:
+  - type: dataset
+    name: Children And Family Health And Well Being
+  - location: data/Children_and_Family_Health_and_Well-Being.csv
+gitUrl: https://github.com/lkrishna-cs/XPA-Hub/tree/master/children-and-family-health-and-well-being

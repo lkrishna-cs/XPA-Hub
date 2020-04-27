@@ -1,0 +1,18 @@
+version: hub/v1alpha
+kind: installable
+name: American Community Survey 1 Year Pums Population File
+image: logo.png
+summary: |
+  American Community Survey 1 Year Pums Population File
+description: |
+  American Community Survey 1 Year Pums Population File
+license: <FILE LOCATION>
+contributor:
+  name: Contributor
+  email: no-reply@email.com
+  url: http://www.cognitivescale.com
+assets:
+  - type: dataset
+    name: American Community Survey 1 Year Pums Population File
+  - location: data/ss13pusa.csv
+gitUrl: https://github.com/lkrishna-cs/XPA-Hub/tree/master/american-community-survey-1-year-pums-population-file

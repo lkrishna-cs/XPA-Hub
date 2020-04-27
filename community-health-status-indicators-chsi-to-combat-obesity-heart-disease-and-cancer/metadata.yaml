@@ -1,0 +1,22 @@
+  version: hub/v1alpha
+  kind: installable
+  name: Community Health Status Indicators CHSI To Combat Obesity Heart Disease And
+    Cancer
+  image: logo.png
+  summary: |
+    Community Health Status Indicators CHSI To Combat Obesity Heart Disease And
+    Cancer
+  description: |
+    Community Health Status Indicators CHSI To Combat Obesity Heart Disease And
+    Cancer
+  license: <FILE LOCATION>
+  contributor:
+    name: Contributor
+    email: no-reply@email.com
+    url: http://www.cognitivescale.com
+  assets:
+    - type: dataset
+      name: Community Health Status Indicators CHSI To Combat Obesity Heart Disease And
+    Cancer
+    - location: data/SUMMARYMEASURESOFHEALTH.csv
+  gitUrl: https://github.com/lkrishna-cs/XPA-Hub/tree/master/community-health-status-indicators-chsi-to-combat-obesity-heart-disease-and-cancer

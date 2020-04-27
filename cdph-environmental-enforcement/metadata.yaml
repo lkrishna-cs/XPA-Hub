@@ -1,0 +1,18 @@
+version: hub/v1alpha
+kind: installable
+name: CDPH Environmental Enforcement
+image: logo.png
+summary: |
+  CDPH Environmental Enforcement
+description: |
+  CDPH Environmental Enforcement
+license: <FILE LOCATION>
+contributor:
+  name: Contributor
+  email: no-reply@email.com
+  url: http://www.cognitivescale.com
+assets:
+  - type: dataset
+    name: CDPH Environmental Enforcement
+  - location: data/CDPH_Environmental_Enforcement.csv
+gitUrl: https://github.com/lkrishna-cs/XPA-Hub/tree/master/cdph-environmental-enforcement

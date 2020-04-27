@@ -1,0 +1,18 @@
+version: hub/v1alpha
+kind: installable
+name: Electronic Health Information Legal Epidemiology Data Set 2014
+image: logo.png
+summary: |
+  Electronic Health Information Legal Epidemiology Data Set 2014
+description: |
+  Electronic Health Information Legal Epidemiology Data Set 2014
+license: <FILE LOCATION>
+contributor:
+  name: Contributor
+  email: no-reply@email.com
+  url: http://www.cognitivescale.com
+assets:
+  - type: dataset
+    name: Electronic Health Information Legal Epidemiology Data Set 2014
+  - location: data/Electronic_Health_Information_Legal_Epidemiology.csv
+gitUrl: https://github.com/lkrishna-cs/XPA-Hub/tree/master/electronic-health-information-legal-epidemiology

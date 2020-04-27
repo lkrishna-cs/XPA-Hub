@@ -1,0 +1,18 @@
+version: hub/v1alpha
+kind: installable
+name: CDPH Environmental Complaints
+image: logo.png
+summary: |
+  CDPH Environmental Complaints
+description: |
+  CDPH Environmental Complaints
+license: <FILE LOCATION>
+contributor:
+  name: Contributor
+  email: no-reply@email.com
+  url: http://www.cognitivescale.com
+assets:
+  - type: dataset
+    name: CDPH Environmental Complaints
+  - location: data/CDPH_Environmental_Complaints.csv
+gitUrl: https://github.com/lkrishna-cs/XPA-Hub/tree/master/cdph-environmental-complaints

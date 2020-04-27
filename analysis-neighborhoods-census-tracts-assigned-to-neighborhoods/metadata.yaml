@@ -1,0 +1,18 @@
+version: hub/v1alpha
+kind: installable
+name: Analysis Neighborhoods Census Tracts Assigned To Neighborhoods
+image: logo.png
+summary: |
+  Analysis Neighborhoods Census Tracts Assigned To Neighborhoods
+description: |
+  Analysis Neighborhoods Census Tracts Assigned To Neighborhoods
+license: <FILE LOCATION>
+contributor:
+  name: Contributor
+  email: no-reply@email.com
+  url: http://www.cognitivescale.com
+assets:
+  - type: dataset
+    name: Analysis Neighborhoods Census Tracts Assigned To Neighborhoods
+  - location: data/Analysis_Neighborhoods.csv
+gitUrl: https://github.com/lkrishna-cs/XPA-Hub/tree/master/analysis-neighborhoods-census-tracts-assigned-to-neighborhoods

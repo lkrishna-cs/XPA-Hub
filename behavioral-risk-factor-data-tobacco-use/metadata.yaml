@@ -1,0 +1,18 @@
+version: hub/v1alpha
+kind: installable
+name: Behavioral Risk Factor Data - Tobacco Use
+image: logo.png
+summary: |
+  Behavioral Risk Factor Data - Tobacco Use
+description: |
+  Behavioral Risk Factor Data - Tobacco Use
+license: <FILE LOCATION>
+contributor:
+  name: Contributor
+  email: no-reply@email.com
+  url: http://www.cognitivescale.com
+assets:
+  - type: dataset
+    name: Behavioral Risk Factor Data - Tobacco Use
+  - location: data/Behavioral_Risk_Factor_Data__Tobacco_Use.csv
+gitUrl: https://github.com/lkrishna-cs/XPA-Hub/tree/master/behavioral-risk-factor-data-tobacco-use

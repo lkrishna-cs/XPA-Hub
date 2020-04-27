@@ -1,0 +1,18 @@
+version: hub/v1alpha
+kind: installable
+name: Drug Poisoning Mortality By County United States
+image: logo.png
+summary: |
+  Drug Poisoning Mortality By County United States
+description: |
+  Drug Poisoning Mortality By County United States
+license: <FILE LOCATION>
+contributor:
+  name: Contributor
+  email: no-reply@email.com
+  url: http://www.cognitivescale.com
+assets:
+  - type: dataset
+    name: Drug Poisoning Mortality By County United States
+  - location: data/NCHS_-_Drug_Poisoning_Mortality_by_County__United_States.csv
+gitUrl: https://github.com/lkrishna-cs/XPA-Hub/tree/master/drug-poisoning-mortality-by-county-united-states
