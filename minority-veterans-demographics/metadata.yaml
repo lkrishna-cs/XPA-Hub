@@ -5,7 +5,7 @@ image: logo.png
 summary: |
   Minority Veterans Demographics
 description: |
-  Minority Veterans Demographics
+  This dataset contains information on minority veteran healthcare usage, educational attainment, unemployment rates, median income, and projected population figures.
 license: <FILE LOCATION>
 contributor:
   name: Contributor

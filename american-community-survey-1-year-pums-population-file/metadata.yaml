@@ -5,7 +5,7 @@ image: logo.png
 summary: |
   American Community Survey 1 Year Pums Population File
 description: |
-  American Community Survey 1 Year Pums Population File
+  National survey that collects data from a sample of the resident population in the United States. Housing units in every county in the United States and municipio in Puerto Rico, including institutional and non-institutional group quarters, are included in the sample
 license: <FILE LOCATION>
 contributor:
   name: Contributor

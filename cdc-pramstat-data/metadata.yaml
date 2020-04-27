@@ -5,7 +5,7 @@ image: logo.png
 summary: |
   CDC Pramstat Data
 description: |
-  CDC Pramstat Data
+  Centers for Disease Control and Prevention (CDC). PRAMS, the Pregnancy Risk Assessment Monitoring System, is a surveillance system collecting state-specific, population-based data on maternal attitudes and experiences before, during, and shortly after pregnancy. It is a collaborative project of the Centers for Disease Control and Prevention (CDC) and state health departments. PRAMS provides data for state health officials to use to improve the health of mothers and infants. 
 license: <FILE LOCATION>
 contributor:
   name: Contributor

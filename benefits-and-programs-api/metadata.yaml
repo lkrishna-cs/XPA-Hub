@@ -5,7 +5,7 @@ image: logo.png
 summary: |
   Benefits And Programs Api
 description: |
-  Benefits And Programs Api
+  This dataset provides benefit, program, and resource information for over 80 health and human services available to NYC residents. The data is kept up-to-date, including the most recent applications, eligibility requirements, and application dates. Information in this dataset is used on ACCESS NYC, Generation NYC, and Growing Up NYC.
 license: <FILE LOCATION>
 contributor:
   name: Contributor
