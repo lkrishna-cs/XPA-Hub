@@ -1,7 +1,3 @@
-
-
-
-
 # 500 Cities Census Tract Level Data GIS Friendly Format
 
 

@@ -14,5 +14,5 @@ contributor:
 assets:
   - type: dataset
     name: 500 Cities Census Tract Level Data GIS Friendly Format
-  - location: data/500_Cities__Census_Tract-level_Data__GIS_Friendly_Format___2019_release.csv
+  - location: data/500_Cities__Census_Tract-level_Data__GIS_Friendly_Format_release.csv
 gitUrl: https://github.com/lkrishna-cs/XPA-Hub/tree/master/500-cities-census-tract-level-data-gis-friendly-format
