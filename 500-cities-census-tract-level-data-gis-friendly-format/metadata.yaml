@@ -1,0 +1,18 @@
+version: hub/v1alpha
+kind: installable
+name: 500 Cities Census Tract Level Data GIS Friendly Format
+image: logo.png
+summary: |
+  500 Cities Census Tract Level Data GIS Friendly Format
+description: |
+  500 Cities Census Tract Level Data GIS Friendly Format
+license: <FILE LOCATION>
+contributor:
+  name: Contributor
+  email: no-reply@email.com
+  url: http://www.cognitivescale.com
+assets:
+  - type: dataset
+    name: 500 Cities Census Tract Level Data GIS Friendly Format
+  - location: data/500_Cities__Census_Tract-level_Data__GIS_Friendly_Format___2019_release.csv
+gitUrl: https://github.com/lkrishna-cs/XPA-Hub/tree/master/500-cities-census-tract-level-data-gis-friendly-format
