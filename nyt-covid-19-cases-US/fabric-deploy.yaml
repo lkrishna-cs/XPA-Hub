@@ -1,0 +1,24 @@
+camel: 1.0.0
+name: default/cord-19-dataset
+title: CORD-19 Dataset
+description: Contains scholarly articles and publications for COVID-19 Pandemic
+fields:
+  - name: Title
+    type: string
+  - name: url
+    type: string
+  - name: category
+    type: string
+connections:
+  default:
+    name: cortex/content
+    type: managedContent
+    query:
+      - name: key
+        value: cord-19.zip
+      - name: contentType
+        value: zip
+  environments:
+    - environment: PROD
+---
+# More fabric metadata

@@ -1,0 +1,21 @@
+version: hub/v1alpha
+kind: installable
+name: New York Times - Coronavirus (Covid-19) Data in the United States
+image: logo.png
+summary: |
+  The New York Times is releasing a series of data files with cumulative counts of coronavirus cases in the United States, at the state and county level, over time.  
+description: |
+  The New York Times is releasing a series of data files with cumulative counts of coronavirus cases in the United States, at the state and county level, over time. 
+  We are compiling this time series data from state and local governments and health departments in an attempt to provide a complete record of the ongoing outbreak.
+  Since late January, The Times has tracked cases of coronavirus in real time as they were identified after testing. 
+  Because of the widespread shortage of testing, however, the data is necessarily limited in the picture it presents of the outbreak.
+license: https://github.com/nytimes/covid-19-data/blob/master/LICENSE
+contributor:
+  name: Contributor
+  email: no-reply@email.com
+  url: http://www.cognitivescale.com
+assets:
+  - type: dataset
+    name: Name of the dataset
+    location: Actual location of the file in the repo,
+gitUrl: https://github.com/nytimes/covid-19-data
