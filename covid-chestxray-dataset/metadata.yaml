@@ -1,0 +1,23 @@
+version: hub/v1alpha
+kind: installable
+name: COVID-19 image data collection
+image: logo.png
+summary: |
+  A public open dataset of chest X-ray and CT images of patients which are positive or suspected of COVID-19 or other viral and bacterial pneumonias (MERS, SARS, and ARDS).
+  This project is approved by the University of Montreal's Ethics Committee #CERSES-20-058-D.
+description: |
+  A public open dataset of chest X-ray and CT images of patients which are positive or suspected of COVID-19 or other viral and bacterial pneumonias (MERS, SARS, and ARDS.). Data will be collected from public sources as well as through indirect collection from hospitals and physicians. All images and data will be released publicly in this GitHub repo.
+  This project is approved by the University of Montreal's Ethics Committee #CERSES-20-058-D
+license: <FILE LOCATION>
+contributor:
+  name: Contributor
+  email: no-reply@email.com
+  url: http://www.cognitivescale.com
+assets:
+  - type: dataset
+    name: Chest X-ray and CT Scan images
+    location: https://github.com/ieee8023/covid-chestxray-dataset/tree/master/images
+  - type: certifai-scan
+    name: Certifai Scan
+    location: certifai/certifai.yaml
+gitUrl: https://github.com/ieee8023/covid-chestxray-dataset
