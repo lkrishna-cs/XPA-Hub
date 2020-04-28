@@ -15,4 +15,3 @@ assets:
   - type: dataset
     name: Provisional Death Counts for Coronavirus Disease
     location: data/Provisional_Death_Counts_for_Coronavirus_Disease__COVID-19___Weekly_State-Specific_Data_Updates.csv
-gitUrl: https://github.com/lkrishna-cs/XPA-Hub/tree/master/provisional-death-counts-for-coronavirus-disease

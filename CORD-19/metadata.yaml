@@ -21,4 +21,3 @@ assets:
   - type: certifai-scan
     name: Certifai Scan
     location: certifai/certifai.yaml
-gitUrl: https://github.com/lkrishna-cs/XPA-Hub/tree/master/CORD-19
