@@ -34,14 +34,14 @@ dataset_facts:
         type: Tabular
         rows: 3073
         columns: 18
-        missing: ''
+        missing: "0"
         license: Copyright 2020 Johns Hopkins University
         first_release: 2/01/2020
         updated_date: 4/19/2020
         frequency_of_update: Daily
         Range:
-        from: 2/2/20
-        to: ''
+        from: 2/2/2020
+        to: 
         description: This is the data repository for the 2019 Novel Coronavirus Visual
         Dashboard operated by the Johns Hopkins University Center for Systems Science
         and Engineering (JHU CSSE). Also, Supported by ESRI Living Atlas Team and the
