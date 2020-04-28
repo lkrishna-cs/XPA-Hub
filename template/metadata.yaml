@@ -14,8 +14,7 @@ contributor:
 assets:
   - type: dataset
     name: Name of the dataset
-    location: Actual location of the file in the repo,
+    location: Actual location of the file in the repo
   - type: certifai-scan
     name: Certifai Scan
     location: certifai/certifai.yaml
-gitUrl: https://github.com/lkrishna-cs/XPA-Hub/tree/master/template
