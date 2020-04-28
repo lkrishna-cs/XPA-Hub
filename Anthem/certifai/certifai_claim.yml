@@ -1,0 +1,80 @@
+scan:
+  scan_id: b99f5b12b988
+  evaluation_type: atx
+  started: '2020-03-25T19:16:34'
+  ended: '2020-03-26T00:49:14'
+  name: Baseline evaluation of datasets
+  description: This evaluation provides the efficacy of the dataset against 6 dimensions
+    as well as a Trust Index score
+atx: '78.3'
+components_measured:
+- completeness
+- accuracy
+- provenance
+- currentness
+- confidentiality
+- consistency
+component_scores:
+  completness: 100
+  accuracy: 50
+  provenance: 75
+  currentness: 95
+  confidentiality: 100
+  consistency: 50
+dataset-facts:
+    title:  This dataset is intended to be a synthetic dataset around healthcare claims from a payer's perspective.
+    metadata:
+        filename: "/data/claim.csv"
+        format: csv
+        url: https://github.com/lkrishna-cs/XPA-Hub/tree/master/Anthem/data
+        domain: Healthcare
+        keywords: Anthem, Member, Claims 
+        usecases:
+        - Intelligent Interventions for Healthcare Member
+        type: Tabular
+        rows: 100000
+        columns: 23
+        missing: ''
+        license: Copyright 2020 Cognitive Scale
+        1st-release: Feb-2020
+        updated_date: 4/19/2020
+        frequency_of_update: Daily
+        Range:
+        from: 2/2/20
+        to: ''
+        description:  This dataset is intended to be a synthetic dataset around healthcare claims from a payer's perspective.
+provenance:
+    source:
+        name: Cognitive Scale
+        url: https://www.cognitivescale.com/
+        email: lkrishna@cognitivescale.com
+variables:
+    profile_id: Claim Identifier
+    member_id Member: Identifier
+    claim_explanation: All the claim related amounts seperated by delimiter
+    service_start_dt:  The date when patient is admitted to provider
+    service_end_dt:  The date when patient is discharged from provider
+    charged_amt: The amount that is charged to patient
+    family_deductible_amt: The deductible amount for entire family
+    total_deductible_amt:  The total deductible amount
+    member_deductible_amt: Member deductible amount
+    total_coins_amt: Total coinsurance amount
+    provider_type: Provider type
+    deductible_amt:  Deductible amount
+    paid_amt:  Paid amount
+    copay_amt: copay amount
+    partb_coins_amt: PartB Coinsurance Amount
+    not_covered_amt: Not Covered Amount
+    medicare_allowed_amt:  Medicare Allowed Amount
+    medicare_paid_amt: Medicare Paid Amount
+    eligible_expense_amt:  Eligible Expense Amount
+    liability_nonelig_amt: Liability Non Eligible Amount
+    contract_effective_dt: Contract Effective Date
+    partb_paid_amt:  PartB Paid Amount
+    servicelineids: List of Identifiers for services taken by patient
+statistic:
+    Ordinal:
+    Nominal:
+    Continious:
+    Discrete:
+status: Completed
