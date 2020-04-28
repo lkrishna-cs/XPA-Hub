@@ -21,7 +21,7 @@ component_scores:
   currentness: 95
   confidentiality: 100
   consistency: 50
-dataset-facts:
+dataset_facts:
     title: COVID-19 Dataset from Johns Hopkins University
     metadata:
         filename: "/csse_covid_19_daily_reports/01-22-2020.csv"
@@ -36,7 +36,7 @@ dataset-facts:
         columns: 18
         missing: ''
         license: Copyright 2020 Johns Hopkins University
-        1st-release: Feb-2020
+        first_release: 2/01/2020
         updated_date: 4/19/2020
         frequency_of_update: Daily
         Range:
@@ -75,7 +75,7 @@ variables:
     ISO3: ISO Code for the location
     Testing_Rate: Testing Rate of the location
     Hospitalization_Rate: Hospitalization Rate of the location
-statistic:
+statistics:
     Ordinal:
     Nominal:
     Continious:
