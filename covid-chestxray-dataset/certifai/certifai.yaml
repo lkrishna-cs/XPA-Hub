@@ -5,7 +5,7 @@ scan:
   ended: "2020-03-26T00:49:14"
   name: Baseline evaluation of datasets
   description: |
-    This evaluation compares the robustness, accuracy and explanations for 4 candidate models. Fairness is not applicable to this use case.""
+    This evaluation compares the robustness, accuracy and explanations for 4 candidate models. Fairness is not applicable to this use case.
 atx: '68.50825'
 components_measured:
 - completeness
@@ -22,65 +22,65 @@ component_scores:
   confidentiality: ''
   consistency: ''
 dataset-facts:
-    title: COVID-19 Chest Xray Dataset
-    metadata:
-        filename: "/metadata.csv"
-        format: csv
-        url: https://github.com/ieee8023/covid-chestxray-dataset/
-        domain: Healthcare
-        keywords: Covid19, Chest Xray
-        usecases:
-        - ""
-        type: Tabular
-        rows: 355
-        columns: 27
-        missing: ''
-        license: ''
-        1st-release: ''
-        updated_date: 4/24/2020
-        frequency_of_update: Daily
-        Range:
-        from: ''
-        to: 4/24/2020
-        description: A public open dataset of chest X-ray and CT images of patients which are positive or suspected of COVID-19 or other viral and bacterial pneumonias (MERS, SARS, and ARDS.). Data will be collected from public sources as well as through indirect collection from hospitals and physicians. All images and data will be released publicly in this GitHub repo. This project is approved by the University of Montreal's Ethics Committee #CERSES-20-058-D
+  title: COVID-19 Chest Xray Dataset
+  metadata:
+    filename: "/metadata.csv"
+    format: csv
+    url: https://github.com/ieee8023/covid-chestxray-dataset/
+    domain: Healthcare
+    keywords: Covid19, Chest Xray
+    usecases: []
+    type: Tabular
+    rows: 355
+    columns: 27
+    missing: ''
+    license: ''
+    1st-release: ''
+    updated_date: 4/24/2020
+    frequency_of_update: Daily
+    Range:
+      from: ''
+      to: 4/24/2020
+    description: |
+      A public open dataset of chest X-ray and CT images of patients which are positive or suspected of COVID-19 or other viral and bacterial pneumonias (MERS, SARS, and ARDS.). Data will be collected from public sources as well as through indirect collection from hospitals and physicians. All images and data will be released publicly in this GitHub repo. This project is approved by the University of Montreal's Ethics Committee #CERSES-20-058-D
 provenance:
-    source:
-        name: Public sources
-        url: https://github.com/ieee8023/covid-chestxray-dataset
-        email: ''
-    author:
-        name: Public sources
-        url: https://github.com/ieee8023/covid-chestxray-dataset
-        email: ''
+  source:
+    name: Public sources
+    url: https://github.com/ieee8023/covid-chestxray-dataset
+    email: ''
+  author:
+    name: Public sources
+    url: https://github.com/ieee8023/covid-chestxray-dataset
+    email: ''
 variables:
-    patientid: "Internal identifier"
-    offset: "Number of days since the start of symptoms or hospitalization for each image. If a report indicates "after a few days, then 5 days is assumed. This is very important to have when there are multiple images for the same patient to track progression."
-    sex: "Male (M), Female (F), or blank"
-    age: "Age of the patient in years"
-    finding: "Type of pneumonia"
-    survival: "Yes (Y) or no (N) or blank if unknown|"
-    intubated: "Yes (Y) if the patient was intubated (or ventilated) at any point during this illness or No (N) or blank if unknown."
-    went_icu: "Yes (Y) if the patient was in the ICU (intensive care unit) or CCU (critical care unit) at any point during this illness or No (N) or blank if unknown."
-    needed_supplemental_O2: "Yes (Y) if the patient required supplemental oxygen at any point during this illness or No (N) or blank "if unknown
-    extubated: "Yes (Y) if the patient was successfully extubated or No (N) or blank if unknown"
-    temperature: "Temperature of the patient in Celsius at the time of the image|"
-    pO2 saturation: "partial pressure of oxygen saturation in % at the time of the image"
-    wbc count: "white blood cell count in units of 10^3/uL at the time of the image"
-    neutrophil count: "neutrophil cell count in units of 10^3/uL at the time of the image"
-    lymphocyte count: "lymphocyte cell count in units of 10^3/uL at the time of the image"
-    view: "Posteroanterior (PA), Anteroposterior (AP), AP Supine (APS), or Lateral (L) for X-rays; Axial or Coronal for CT scans"
-    modality: "CT, X-ray, or something else"
-    date: "Date on which the image was acquired"
-    location: "Hospital name, city, state, country"
-    filename: "Name with extension"
-    doi: "Digital object identifier ([DOI](https://en.wikipedia.org/wiki/Digital_object_identifier)) of the research article"
-    url: "URL of the paper or website where the image came from"
-    license: "License of the image such as CC BY-NC-SA. Blank if unknown"
-    clinical notes: "Clinical notes about the image and/or the patient"
-    other notes: "e.g. credit"
+  age: "A ge of the patient in years"
+  patientid: "Internal identifier"
+  offset: "Number of days since the start of symptoms or hospitalization for each image. If a report indicates after a few days, then 5 days is assumed. This is very important to have when there are multiple images for the same patient to track progression."
+  sex: "Male (M), Female (F), or blank"
+  finding: "Type of pneumonia"
+  survival: "Yes (Y) or no (N) or blank if unknown|"
+  intubated: "Yes (Y) if the patient was intubated (or ventilated) at any point during this illness or No (N) or blank if unknown."
+  went_icu: "Yes (Y) if the patient was in the ICU (intensive care unit) or CCU (critical care unit) at any point during this illness or No (N) or blank if unknown."
+  needed_supplemental_O2: "Yes (Y) if the patient required supplemental oxygen at any point during this illness or No (N) or blank if unknown"
+  extubated: "Yes (Y) if the patient was successfully extubated or No (N) or blank if unknown"
+  temperature: "Temperature of the patient in Celsius at the time of the image|"
+  pO2 saturation: "partial pressure of oxygen saturation in % at the time of the image"
+  wbc count: "white blood cell count in units of 10^3/uL at the time of the image"
+  neutrophil count: "neutrophil cell count in units of 10^3/uL at the time of the image"
+  lymphocyte count: "lymphocyte cell count in units of 10^3/uL at the time of the image"
+  view: "Posteroanterior (PA), Anteroposterior (AP), AP Supine (APS), or Lateral (L) for X-rays; Axial or Coronal for CT scans"
+  modality: "CT, X-ray, or something else"
+  date: "Date on which the image was acquired"
+  location: "Hospital name, city, state, country"
+  filename: "Name with extension"
+  doi: "Digital object identifier ([DOI](https://en.wikipedia.org/wiki/Digital_object_identifier)) of the research article"
+  url: "URL of the paper or website where the image came from"
+  license: "License of the image such as CC BY-NC-SA. Blank if unknown"
+  clinical notes: "Clinical notes about the image and/or the patient"
+  other notes: "e.g. credit"
 statistic:
-    Ordinal:
-    Nominal:
-    Continious:
-    Discrete:
+  Ordinal:
+  Nominal:
+  Continious:
+  Discrete:
 status: Completed
