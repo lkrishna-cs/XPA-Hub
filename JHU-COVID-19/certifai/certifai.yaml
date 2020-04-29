@@ -58,7 +58,7 @@ provenance:
     name: Prof. Lauren Gardner
     url: https://systems.jhu.edu/lauren_gardner/
     email: l.gardner@jhu.edu
-variables:
+fields:
   Province_State: State or Province Code
   Country_Region: Name of the country or region
   Last_Update: Last Udpated Date
