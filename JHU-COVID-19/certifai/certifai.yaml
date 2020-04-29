@@ -1,19 +1,20 @@
 scan:
   scan_id: b99f5b12b988
   evaluation_type: atx
-  started: '2020-03-25T19:16:34'
-  ended: '2020-03-26T00:49:14'
+  started: "2020-03-25T19:16:34"
+  ended: "2020-03-26T00:49:14"
   name: Baseline evaluation of datasets
-  description: This evaluation provides the efficacy of the dataset against 6 dimensions
+  description:
+    This evaluation provides the efficacy of the dataset against 6 dimensions
     as well as a Trust Index score
-atx: '78.3'
+atx: "78.3"
 components_measured:
-- completeness
-- accuracy
-- provenance
-- currentness
-- confidentiality
-- consistency
+  - completeness
+  - accuracy
+  - provenance
+  - currentness
+  - confidentiality
+  - consistency
 component_scores:
   completness: 100
   accuracy: 50
@@ -21,63 +22,64 @@ component_scores:
   currentness: 95
   confidentiality: 100
   consistency: 50
-dataset_facts:
-    title: COVID-19 Dataset from Johns Hopkins University
-    metadata:
-        filename: "/csse_covid_19_daily_reports/01-22-2020.csv"
-        format: csv
-        url: https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data
-        domain: Healthcare
-        keywords: johns-hopkins-university, covid-19, jhu
-        usecases:
-        - Intelligent Interventions for Healthcare Member
-        type: Tabular
-        rows: 3073
-        columns: 18
-        missing: "0"
-        license: Copyright 2020 Johns Hopkins University
-        first_release: 2/01/2020
-        updated_date: 4/19/2020
-        frequency_of_update: Daily
-        Range:
-        from: 2/2/2020
-        to: 
-        description: This is the data repository for the 2019 Novel Coronavirus Visual
-        Dashboard operated by the Johns Hopkins University Center for Systems Science
-        and Engineering (JHU CSSE). Also, Supported by ESRI Living Atlas Team and the
-        Johns Hopkins University Applied Physics Lab (JHU APL). This folder contains
-        daily case reports. All timestamps are in UTC (GMT+0).
+dataset-facts:
+  title: COVID-19 Dataset from Johns Hopkins University
+  metadata:
+    filename: "/csse_covid_19_daily_reports/01-22-2020.csv"
+    format: csv
+    url: https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data
+    domain: Healthcare
+    keywords: johns-hopkins-university, covid-19, jhu
+    use_cases:
+      - Intelligent Interventions for Healthcare Member
+    type: Tabular
+    rows: 3073
+    columns: 18
+    missing: ""
+    license: Copyright 2020 Johns Hopkins University
+    1st-release: Feb-2020
+    updated_date: 4/19/2020
+    frequency_of_update: Daily
+    Range:
+      from: 2/2/20
+      to: ""
+    description:
+      This is the data repository for the 2019 Novel Coronavirus Visual
+      Dashboard operated by the Johns Hopkins University Center for Systems Science
+      and Engineering (JHU CSSE). Also, Supported by ESRI Living Atlas Team and the
+      Johns Hopkins University Applied Physics Lab (JHU APL). This folder contains
+      daily case reports. All timestamps are in UTC (GMT+0).
 provenance:
-    source:
-        name: Johns Hopkins University
-        url: https://systems.jhu.edu/
-        email: l.gardner@jhu.edu
-    author:
-        name: Prof. Lauren Gardner
-        url: https://systems.jhu.edu/lauren_gardner/
-        email: l.gardner@jhu.edu
+  source:
+    name: Johns Hopkins University
+    url: https://systems.jhu.edu/
+    email: l.gardner@jhu.edu
+  author:
+    name: Prof. Lauren Gardner
+    url: https://systems.jhu.edu/lauren_gardner/
+    email: l.gardner@jhu.edu
 variables:
-    Province_State: State or Province Code
-    Country_Region: Name of the country or region
-    Last_Update: Last Udpated Date
-    Lat: Latitude of the location
-    Long_: Longitude of the location
-    Confirmed: Number of confirmed cases
-    Deaths: Number of deaths
-    Recovered: Number of recovered cases
-    Active: Number of active cases
-    FIPS: FIPS (Federal Information Processing Standards) code is assigned by the US Census Bureau
-    Incident_Rate: Rate of the incident
-    People_Tested: Number of people tested
-    People_Hospitalized: Number of people hospitalized
-    Mortality_Rate: Mortality Rate for the location
-    UID: Unique ID
-    ISO3: ISO Code for the location
-    Testing_Rate: Testing Rate of the location
-    Hospitalization_Rate: Hospitalization Rate of the location
-statistics:
-    Ordinal:
-    Nominal:
-    Continious:
-    Discrete:
+  Province_State: State or Province Code
+  Country_Region: Name of the country or region
+  Last_Update: Last Udpated Date
+  Lat: Latitude of the location
+  Long_: Longitude of the location
+  Confirmed: Number of confirmed cases
+  Deaths: Number of deaths
+  Recovered: Number of recovered cases
+  Active: Number of active cases
+  FIPS: FIPS (Federal Information Processing Standards) code is assigned by the US Census Bureau
+  Incident_Rate: Rate of the incident
+  People_Tested: Number of people tested
+  People_Hospitalized: Number of people hospitalized
+  Mortality_Rate: Mortality Rate for the location
+  UID: Unique ID
+  ISO3: ISO Code for the location
+  Testing_Rate: Testing Rate of the location
+  Hospitalization_Rate: Hospitalization Rate of the location
+statistic:
+  Ordinal:
+  Nominal:
+  Continious:
+  Discrete:
 status: Completed
