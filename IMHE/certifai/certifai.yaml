@@ -4,8 +4,8 @@ scan:
   started: '2020-03-25T19:16:34'
   ended: '2020-03-26T00:49:14'
   name: Baseline evaluation of datasets
-  description: This evaluation provides the efficacy of the dataset against 6 dimensions
-    as well as a Trust Index score
+  description: |
+    This evaluation provides the efficacy of the dataset against 6 dimensions as well as a Trust Index score
 atx: '78.3'
 components_measured:
 - completeness
@@ -30,12 +30,11 @@ dataset-facts:
         domain: Healthcare
         keywords: Classification, covid-19, IMHE
         usecases:
-        - 
         type: Tabular
         rows: 30530
         columns: 30
         missing: ''
-        license: 
+        license:
         1st-release: Feb-2020
         updated_date: 4/19/2020
         frequency_of_update: Daily
@@ -48,42 +47,42 @@ provenance:
     source:
         name: IMHE
         url: http://www.healthdata.org/covid
-        email: 
+        email:
     author:
-        name: 
-        url: 
+        name:
+        url:
         email:
 variables:
     V1: key to idenify row
     location_name: Name of the state
     date: Date
     allbed_mean: Mean covid beds needed by day
-    allbed_lower: Lower uncertainty bound of covid beds needed by day 
-    allbed_upper: Upper uncertainty bound of covid beds needed by day 
+    allbed_lower: Lower uncertainty bound of covid beds needed by day
+    allbed_upper: Upper uncertainty bound of covid beds needed by day
     ICUbed_mean: Mean ICU covid beds needed by day
-    ICUbed_lower: Lower uncertainty bound of ICU covid beds needed by day 
-    ICUbed_upper: Upper uncertainty bound of ICU covid beds needed by day 
+    ICUbed_lower: Lower uncertainty bound of ICU covid beds needed by day
+    ICUbed_upper: Upper uncertainty bound of ICU covid beds needed by day
     InvVen_mean: Mean invasive ventilation needed by day
-    InvVen_lower: Lower uncertainty bound of invasive ventilation needed by day 
-    InvVen_upper: Upper uncertainty bound of invasive ventilation needed by day 
-    deaths_mean: Mean daily covid deaths 
+    InvVen_lower: Lower uncertainty bound of invasive ventilation needed by day
+    InvVen_upper: Upper uncertainty bound of invasive ventilation needed by day
+    deaths_mean: Mean daily covid deaths
     deaths_lower: Lower uncertainty bound of daily covid deaths
     deaths_upper: Upper uncertainty bound of daily covid deaths
     admis_mean: Mean hospital admissions by day
-    admis_lower: Lower uncertainty bound of hospital admissions by day 
-    admis_upper: Upper uncertainty bound of hospital admissions by day 
-    newICU_mean: Mean number of new people going to the ICU by day 
+    admis_lower: Lower uncertainty bound of hospital admissions by day
+    admis_upper: Upper uncertainty bound of hospital admissions by day
+    newICU_mean: Mean number of new people going to the ICU by day
     newICU_lower: Lower uncertainty bound of the number of new people going to the ICU by day
-    newICU_upper: Upper uncertainty bound of the number of new people going to the ICU by day 
+    newICU_upper: Upper uncertainty bound of the number of new people going to the ICU by day
     totdea_mean: Mean cumulative covid deaths
-    totdea_lower: Lower uncertainty bound of cumulative covid deaths 
-    totdea_upper: Upper uncertainty bound of cumulative covid deaths 
-    bedover_mean: [covid all beds needed] - ([total bed capacity] - [average all bed usage]) 
-    bedover_lower: Lower uncertainty bound of bedover (above) 
-    bedover_upper: Upper uncertainty bound of bedover (above) 
-    icuover_mean:  [covid ICU beds needed] - ([total ICU capacity] - [average ICU bed usage]) 
-    icuover_lower: [covid ICU beds needed] - ([total ICU capacity] - [average ICU bed usage]) 
-    icuover_upper: Upper uncertainty bound of icuover (above) 
+    totdea_lower: Lower uncertainty bound of cumulative covid deaths
+    totdea_upper: Upper uncertainty bound of cumulative covid deaths
+    bedover_mean: "[covid all beds needed] - ([total bed capacity] - [average all bed usage])"
+    bedover_lower: Lower uncertainty bound of bedover (above)
+    bedover_upper: Upper uncertainty bound of bedover (above)
+    icuover_mean:  "[covid ICU beds needed] - ([total ICU capacity] - [average ICU bed usage])"
+    icuover_lower: "[covid ICU beds needed] - ([total ICU capacity] - [average ICU bed usage])"
+    icuover_upper: Upper uncertainty bound of icuover (above)
 statistic:
     Ordinal:
     Nominal:

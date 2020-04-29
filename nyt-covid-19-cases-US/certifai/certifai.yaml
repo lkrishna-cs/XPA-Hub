@@ -1,69 +1,69 @@
 scan:
-    scan_id: b99f5b12b937
-    evaluation_type: atx
-    started: "2020-03-25T19:16:34"
-    ended: "2020-03-26T00:49:14"
-    name: Baseline evaluation of datasets
-    description: ""This evaluation compares the robustness, accuracy and explanations for 4 candidate models. Fairness is not applicable to this use case.""
-  atx: ''
-  components_measured:
-  - completeness
-  - accuracy
-  - provenance
-  - currentness
-  - confidentiality
-  - consistency
-  component_scores:
-    completness: ''
-    accuracy: ''
-    provenance: ''
-    currentness: ''
-    confidentiality: ''
-    consistency: ''
-  dataset-facts:
-      title: NYT Covid19 Cases - US 
-      metadata:
-          filename: "/covid-19-data/us-states.csv"
-          format: csv
-          url: https://github.com/nytimes/covid-19-data/blob/master/us-states.csv
-          domain: Healthcare
-          keywords: Covid19
-          usecases:
-          - ""
-          type: Tabular
-          rows: 3040
-          columns: 5
-          missing: None
-          license: https://github.com/nytimes/covid-19-data/blob/master/LICENSE
-          1st-release: ''
-          updated_date: 26/04/20
-          frequency_of_update: Daily
-          Range:
-          from: 21/01/20
-          to: 26/04/20
-          description: "The New York Times is releasing a series of data files with cumulative counts of coronavirus cases in the United States, at the state and county level, over time. 
-          We are compiling this time series data from state and local governments and health departments in an attempt to provide a complete record of the ongoing outbreak.
-          Since late January, The Times has tracked cases of coronavirus in real time as they were identified after testing. 
-          Because of the widespread shortage of testing, however, the data is necessarily limited in the picture it presents of the outbreak."
-  provenance:
-      source:
-          name: NY Times
-          url: https://github.com/nytimes/covid-19-data
-          email: covid-data@nytimes.com.
-      author:
-          name: NY Times
-          url: https://github.com/nytimes/covid-19-data
-          email: covid-data@nytimes.com.
-  variables:
-      date: Date
-      state: State Name
-      fips: Standard Geographic Odentifier
-      cases: No. of Cases
-      deaths: No. of Deaths
-  statistic:
-      Ordinal:
-      Nominal:
-      Continious:
-      Discrete:
-  status: Completed
-  
+  scan_id: b99f5b12b937
+  evaluation_type: atx
+  started: "2020-03-25T19:16:34"
+  ended: "2020-03-26T00:49:14"
+  name: Baseline evaluation of datasets
+  description: |
+    This evaluation compares the robustness, accuracy and explanations for 4 candidate models. Fairness is not applicable to this use case.
+atx: ''
+components_measured:
+- completeness
+- accuracy
+- provenance
+- currentness
+- confidentiality
+- consistency
+component_scores:
+  completness: ''
+  accuracy: ''
+  provenance: ''
+  currentness: ''
+  confidentiality: ''
+  consistency: ''
+dataset-facts:
+    title: NYT Covid19 Cases - US
+    metadata:
+        filename: "/covid-19-data/us-states.csv"
+        format: csv
+        url: https://github.com/nytimes/covid-19-data/blob/master/us-states.csv
+        domain: Healthcare
+        keywords: Covid19
+        usecases:
+        - ""
+        type: Tabular
+        rows: 3040
+        columns: 5
+        missing: None
+        license: https://github.com/nytimes/covid-19-data/blob/master/LICENSE
+        1st-release: ''
+        updated_date: 26/04/20
+        frequency_of_update: Daily
+        Range:
+        from: 21/01/20
+        to: 26/04/20
+        description: "The New York Times is releasing a series of data files with cumulative counts of coronavirus cases in the United States, at the state and county level, over time.
+        We are compiling this time series data from state and local governments and health departments in an attempt to provide a complete record of the ongoing outbreak.
+        Since late January, The Times has tracked cases of coronavirus in real time as they were identified after testing.
+        Because of the widespread shortage of testing, however, the data is necessarily limited in the picture it presents of the outbreak."
+provenance:
+    source:
+        name: NY Times
+        url: https://github.com/nytimes/covid-19-data
+        email: covid-data@nytimes.com.
+    author:
+        name: NY Times
+        url: https://github.com/nytimes/covid-19-data
+        email: covid-data@nytimes.com.
+variables:
+    date: Date
+    state: State Name
+    fips: Standard Geographic Odentifier
+    cases: No. of Cases
+    deaths: No. of Deaths
+statistic:
+    Ordinal:
+    Nominal:
+    Continious:
+    Discrete:
+status: Completed
