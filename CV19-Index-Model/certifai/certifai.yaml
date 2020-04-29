@@ -1,0 +1,105 @@
+scan:
+  scan_id: b99f5b12b999
+  evaluation_type: atx
+  started: "2020-04-29T19:16:34"
+  ended: "2020-04-29T00:49:14"
+  name: Baseline evaluation of CV19 Prediction Model
+  description:
+    This evaluation provides the efficacy of the dataset against 4 dimensions as well as a Trust Index score
+atx: "82.325"
+components_measured:
+  - explainability
+  - fairness
+  - performance
+  - robustness
+component_scores:
+  explainability: 55.0
+  fairness: 100.0
+  robustness: 100.0
+  performance: 74.3
+model-facts:
+  title: CV19 Vulnerability Index - Risk Prediction Model
+  metadata:
+    model_image_name: c12e/caseProjection-image:latest
+    model_source_language: Python v3.6
+    model_invocation_url: https://api.cortex.insights.ai/services/case-projection-model/predict
+    domain: Healthcare
+    keywords: closedloop.ai, covid-19
+    use_cases:
+      - Intelligent Interventions for Healthcare Member
+    type:  Linear Logistic Regression
+    description: 
+      The COVID-19 Vulnerability Index (CV19 Index) is a predictive model 
+      that identifies people who are likely to have a heightened vulnerability 
+      to severe complications from COVID-19 (commonly referred to as “The Coronavirus”). 
+      The CV19 Index is intended to help hospitals, federal / state / local public 
+      health agencies and other healthcare organizations in their work to identify, 
+      plan for, respond to, and reduce the impact of COVID-19 in their communities.
+dataset-facts:
+  title: CV19 Vulnerability Index - Prediction Dataset
+  metadata:
+    filename: "/csse_covid_19_daily_reports/01-22-2020.csv"
+    format: csv
+    url: https://github.com/closedloop-ai/cv19index/tree/master/testData
+    domain: Healthcare
+    keywords: closedloop.ai, covid-19
+    use_cases:
+      - Intelligent Interventions for Healthcare Member
+    type: Tabular
+    rows: 1000
+    columns: 27
+    missing: ""
+    license: BSD 3-Clause License Copyright (c) 2020, ClosedLoop.ai
+    1st-release: 03/01/2020
+    updated_date: 04/05/2020
+    frequency_of_update: Weekly
+    Range:
+      from: 03/01/2020
+      to: ""
+    description:
+      The COVID-19 Vulnerability Index (CV19 Index) is a predictive model 
+      that identifies people who are likely to have a heightened vulnerability 
+      to severe complications from COVID-19 (commonly referred to as “The Coronavirus”). 
+      The CV19 Index is intended to help hospitals, federal / state / local public 
+      health agencies and other healthcare organizations in their work to identify, 
+      plan for, respond to, and reduce the impact of COVID-19 in their communities.
+provenance:
+  source:
+    name: ClosedLoop.ai
+    url: https://closedloop.ai/
+    email: info@closeloop.ai
+  author:
+    name: Closed Loop
+    url: https://closedloop.ai/
+    email: info@closeloop.ai
+fields:
+  personId: Person Id
+  claimId: Claim Id
+  admitDate: Admission Date
+  dischargeDate: Discharge Date
+  erVisit: Visited ER?
+  inpatient: Is Inpatient?
+  gender: Member gender
+  age: Member Age
+  extraColumnsAreIgnored: Additional columns ignored
+  dx1: Unknown
+  dx2: Unknown
+  dx3: Unknown
+  dx4: Unknown
+  dx5: Unknown
+  dx6: Unknown
+  dx7: Unknown
+  dx8: Unknown
+  dx9: Unknown
+  dx10: Unknown
+  dx11: Unknown
+  dx12: Unknown
+  dx13: Unknown
+  dx14: Unknown
+  dx15: Unknown
+statistic:
+  Ordinal:
+  Nominal:
+  Continious:
+  Discrete:
+status: Completed
