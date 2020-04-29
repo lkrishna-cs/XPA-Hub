@@ -6,21 +6,21 @@ scan:
   name: Baseline evaluation of datasets
   description: |
     This evaluation compares the robustness, accuracy and explanations for 4 candidate models. Fairness is not applicable to this use case.
-atx: ''
+atx: '75.0'
 components_measured:
-- completeness
-- accuracy
-- provenance
-- currentness
-- confidentiality
-- consistency
+  - completeness
+  - accuracy
+  - provenance
+  - currentness
+  - confidentiality
+  - consistency
 component_scores:
-  completness: ''
-  accuracy: ''
-  provenance: ''
-  currentness: ''
-  confidentiality: ''
-  consistency: ''
+  completness: 100
+  accuracy: 45
+  provenance: 75
+  currentness: 95
+  confidentiality: 100
+  consistency: 50
 dataset-facts:
     title: NYT Covid19 Cases - US
     metadata:
@@ -30,13 +30,13 @@ dataset-facts:
         domain: Healthcare
         keywords: Covid19
         usecases:
-        - ""
+        - "Intelligent Interventions of a healthcare member"
         type: Tabular
         rows: 3040
         columns: 5
-        missing: None
+        missing: 0
         license: https://github.com/nytimes/covid-19-data/blob/master/LICENSE
-        1st-release: ''
+        first_release: 01/01/20
         updated_date: 26/04/20
         frequency_of_update: Daily
         Range:
@@ -47,15 +47,15 @@ dataset-facts:
         Since late January, The Times has tracked cases of coronavirus in real time as they were identified after testing.
         Because of the widespread shortage of testing, however, the data is necessarily limited in the picture it presents of the outbreak."
 provenance:
-    source:
-        name: NY Times
-        url: https://github.com/nytimes/covid-19-data
-        email: covid-data@nytimes.com.
-    author:
-        name: NY Times
-        url: https://github.com/nytimes/covid-19-data
-        email: covid-data@nytimes.com.
-variables:
+  source:
+    name: NY Times
+    url: https://www.nytimes.com/
+    email: covid-data@nytimes.com.
+  author:
+    name: NY Times
+    url: https://www.nytimes.com/
+    email: covid-data@nytimes.com.
+fields:
     date: Date
     state: State Name
     fips: Standard Geographic Odentifier

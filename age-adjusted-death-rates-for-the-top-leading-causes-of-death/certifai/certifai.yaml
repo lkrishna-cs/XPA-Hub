@@ -8,19 +8,19 @@ scan:
     This evaluation compares the robustness, accuracy and explanations for 4 candidate models. Fairness is not applicable to this use case
 atx: '78.3'
 components_measured:
-- completeness
-- accuracy
-- provenance
-- currentness
-- confidentiality
-- consistency
+  - completeness
+  - accuracy
+  - provenance
+  - currentness
+  - confidentiality
+  - consistency
 component_scores:
-completness: 100
-accuracy: 50
-provenance: 75
-currentness: 95
-confidentiality: 100
-consistency: 50
+  completness: 100
+  accuracy: 50
+  provenance: 75
+  currentness: 95
+  confidentiality: 100
+  consistency: 50
 dataset_facts:
     title: NCHS - Leading Causes of Death - United States
     metadata:
