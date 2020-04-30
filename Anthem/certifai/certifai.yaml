@@ -51,7 +51,7 @@ provenance:
     name: Cognitive Scale
     url: https://www.cognitivescale.com/
     email: info@cognitivescale.com
-variables:
+fields:
   member_id: Membership Identifier
   membership_effective_dt: Effective begin date of the membership
   membership_end_dt: Effective end date of the membership
