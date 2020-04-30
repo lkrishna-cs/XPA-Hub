@@ -5,8 +5,9 @@ scan:
   ended: "2020-03-26T00:49:14"
   name: Baseline evaluation of datasets
   description: |
-    This evaluation compares the robustness, accuracy and explanations for 4 candidate models. Fairness is not applicable to this use case
-atx: '78.3'
+    This evaluation compares the robustness, accuracy and explanations for 4 candidate models.
+    Fairness is not applicable to this use case.
+atx: "78.3"
 components_measured:
   - completeness
   - accuracy
@@ -22,43 +23,43 @@ component_scores:
   confidentiality: 100
   consistency: 50
 dataset_facts:
-    title: NCHS - Leading Causes of Death - United States
-    metadata:
-        filename: NCHS_-_Age-adjusted_Death_Rates_for_Selected_Major_Causes_of_Death.csv
-        format: csv
-        url: https://github.com/lkrishna-cs/XPA-Hub/tree/master/age-adjusted-death-rates-for-the-top-leading-causes-of-death/data
-        domain: Healthcare
-        keywords: Death rates, Major Causes of Death
-        usecases:
-        - "Intelligent Interventions for Healthcare Member"
-        type: Tabular
-        rows: 605
-        columns: 3
-        missing: None
-        license: ''
-        first_release: 23/08/17
-        updated_date: 24/10/19
-        frequency_of_update: Yearly
-        Range:
-        from: 1990
-        to: 2019
-        description: This dataset of U.S. mortality trends since 1900 highlights trends in age-adjusted death rates for five selected major causes of death.
+  title: NCHS - Leading Causes of Death - United States
+  metadata:
+    filename: NCHS_-_Age-adjusted_Death_Rates_for_Selected_Major_Causes_of_Death.csv
+    format: csv
+    url: https://github.com/lkrishna-cs/XPA-Hub/tree/master/age-adjusted-death-rates-for-the-top-leading-causes-of-death/data
+    domain: Healthcare
+    keywords: Death rates, Major Causes of Death
+    usecases:
+    - "Intelligent Interventions for Healthcare Member"
+    type: Tabular
+    rows: 605
+    columns: 3
+    missing: 0
+    license: ''
+    first_release: 23/08/17
+    updated_date: 24/10/19
+    frequency_of_update: Yearly
+    Range:
+    from: 1990
+    to: 2020
+    description: This dataset of U.S. mortality trends since 1900 highlights trends in age-adjusted death rates for five selected major causes of death.
 provenance:
-    source:
-        name: 'National Center for Health Statistics'
-        url: 'https://data.cdc.gov/api/views/bi63-dtpu'
-        email: 'nchsdata@cdc.gov'
-    author:
-        name: 'Centers for Disease Control and Prevention'
-        url: 'https://data.cdc.gov/api/views/bi63-dtpu'
-        email: ''
+  source:
+    name: 'National Center for Health Statistics'
+    url: 'https://data.cdc.gov/api/views/bi63-dtpu'
+    email: 'nchsdata@cdc.gov'
+  author:
+    name: 'Centers for Disease Control and Prevention'
+    url: 'https://data.cdc.gov/api/views/bi63-dtpu'
+    email: 'nchsdata@cdc.gov'
 variables:
-    Year: Year
-    Cause: Causes of Death
-    Age Adjusted Death Rate: Age Adjusted Death Rate
+  Year: Year
+  Cause: Causes of Death
+  Age Adjusted Death Rate: Age Adjusted Death Rate
 statistic:
-    Ordinal:
-    Nominal:
-    Continious:
-    Discrete:
+  Ordinal:
+  Nominal:
+  Continious:
+  Discrete:
 status: Completed
