@@ -24,7 +24,7 @@ model-facts:
       The CV19 Index is intended to help hospitals, federal / state / local public 
       health agencies and other healthcare organizations in their work to identify, 
       plan for, respond to, and reduce the impact of COVID-19 in their communities.
-    atx: "82.325"
+    ATX: "82.325"
     component_scores:
       explainability: 55.0
       fairness: 100.0
