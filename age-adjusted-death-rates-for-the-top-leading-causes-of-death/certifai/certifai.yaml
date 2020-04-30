@@ -30,8 +30,8 @@ dataset_facts:
     url: https://github.com/lkrishna-cs/XPA-Hub/tree/master/age-adjusted-death-rates-for-the-top-leading-causes-of-death/data
     domain: Healthcare
     keywords: Death rates, Major Causes of Death
-    usecases:
-    - "Intelligent Interventions for Healthcare Member"
+    use_cases:
+      - Intelligent Interventions for Healthcare Member
     type: Tabular
     rows: 605
     columns: 3
