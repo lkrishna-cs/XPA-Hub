@@ -1,0 +1,17 @@
+version: hub/v1alpha
+kind: installable
+name: National Health And Nutrition Examination Survey
+image: logo.png
+summary: |
+  1999-2000 forward. The National Health and Nutrition Examination Survey (NHANES) is a program of studies designed to assess the health and nutritional status of adults and children in the United States.
+description: |
+  1999-2000 forward. The National Health and Nutrition Examination Survey (NHANES) is a program of studies designed to assess the health and nutritional status of adults and children in the United States.
+license: <FILE LOCATION>
+contributor:
+  name: Contributor
+  email: no-reply@email.com
+  url: http://www.cognitivescale.com
+assets:
+  - type: dataset
+    name: National Health And Nutrition Examination Survey
+gitUrl: https://github.com/lkrishna-cs/XPA-Hub/tree/master/national-health-and-nutrition-examination-survey-nhanes-ddd8a

@@ -1,0 +1,17 @@
+version: hub/v1alpha
+kind: installable
+name: Public Health District Boundaries
+image: logo.png
+summary: |
+  Cook County Department of Public Health Suburban Cook County District boundaries.
+description: |
+  Cook County Department of Public Health Suburban Cook County District boundaries. This dataset contains municipal and township boundaries for Suburban Cook County with attributes designating what CCDPH district the area is in.
+license: <FILE LOCATION>
+contributor:
+  name: Contributor
+  email: no-reply@email.com
+  url: http://www.cognitivescale.com
+assets:
+  - type: dataset
+    name: Public Health District Boundaries
+gitUrl: https://github.com/lkrishna-cs/XPA-Hub/tree/master/public-health-district-boundaries

@@ -1,0 +1,18 @@
+version: hub/v1alpha
+kind: installable
+name: Prescription Monitoring Program
+image: logo.png
+summary: |
+  Increase the active number of users requesting information from the Prescription Monitoring Program from 6,486 in 2014 to 8,634 by 2017.
+description: |
+  Increase the active number of users requesting information from the Prescription Monitoring Program from 6,486 in 2014 to 8,634 by 2017.
+license: <FILE LOCATION>
+contributor:
+  name: Contributor
+  email: no-reply@email.com
+  url: http://www.cognitivescale.com
+assets:
+  - type: dataset
+    name: Prescription Monitoring Program
+  - location: data/NCHS_-_Age-adjusted_Death_Rates_for_Selected_Major_Causes_of_Death.csv
+gitUrl: https://github.com/lkrishna-cs/XPA-Hub/tree/master/prescription-monitoring-program

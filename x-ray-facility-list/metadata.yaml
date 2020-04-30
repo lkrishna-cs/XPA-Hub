@@ -1,0 +1,17 @@
+version: hub/v1alpha
+kind: installable
+name: X Ray Facility List
+image: logo.png
+summary: |
+  This is a list of all facilities in Washington State that have an x-ray device registered with the Department of Health.
+description: |
+  This is a list of all facilities in Washington State that have an x-ray device registered with the Department of Health. This includes medical, dental, research, industrial, and security x-ray equipment.
+license: <FILE LOCATION>
+contributor:
+  name: Contributor
+  email: no-reply@email.com
+  url: http://www.cognitivescale.com
+assets:
+  - type: dataset
+    name: X Ray Facility List
+gitUrl: https://github.com/lkrishna-cs/XPA-Hub/tree/master/x-ray-facility-list

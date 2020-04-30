@@ -1,0 +1,17 @@
+version: hub/v1alpha
+kind: installable
+name: National Survey Of SSI Children And Families NSCF
+image: logo.png
+summary: |
+  The NSCF collected data on the health status and functional limitations, health care utilization, health insurance coverage, receipt of services, SSI experience, socioeconomic status of children's households, and housing characteristics of over 8,000 children who were receiving, had received, or were applying for SSI. 
+description: |
+  The NSCF collected data on the health status and functional limitations, health care utilization, health insurance coverage, receipt of services, SSI experience, socioeconomic status of children's households, and housing characteristics of over 8,000 children who were receiving, had received, or were applying for SSI.
+license: <FILE LOCATION>
+contributor:
+  name: Contributor
+  email: no-reply@email.com
+  url: http://www.cognitivescale.com
+assets:
+  - type: dataset
+    name: National Survey Of SSI Children And Families NSCF
+gitUrl: https://github.com/lkrishna-cs/XPA-Hub/tree/master/national-survey-of-ssi-children-and-families-nscf

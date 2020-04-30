@@ -1,0 +1,17 @@
+version: hub/v1alpha
+kind: installable
+name: Home Health Care HHC AHPS
+image: logo.png
+summary: |
+  Home Health Care - HHCAHPS
+description: |
+  Home Health Care - HHCAHPS
+license: <FILE LOCATION>
+contributor:
+  name: Contributor
+  email: no-reply@email.com
+  url: http://www.cognitivescale.com
+assets:
+  - type: dataset
+    name: Home Health Care HHC AHPS
+gitUrl: https://github.com/lkrishna-cs/XPA-Hub/tree/master/home-health-care-hhcahps

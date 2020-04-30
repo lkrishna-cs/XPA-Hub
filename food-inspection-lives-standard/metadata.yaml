@@ -1,0 +1,17 @@
+version: hub/v1alpha
+kind: installable
+name: Food Inspection Lives Standard
+image: logo.png
+summary: |
+  Current food Inspection dataset published using LIVES data standard.
+description: |
+  Current food Inspection dataset published using LIVES data standard.
+license: <FILE LOCATION>
+contributor:
+  name: Contributor
+  email: no-reply@email.com
+  url: http://www.cognitivescale.com
+assets:
+  - type: dataset
+    name: Food Inspection Lives Standard
+gitUrl: https://github.com/lkrishna-cs/XPA-Hub/tree/master/food-inspection-lives-standard

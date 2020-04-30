@@ -1,0 +1,17 @@
+version: hub/v1alpha
+kind: installable
+name: Surfacewater Source Protection Areas
+image: logo.png
+summary: |
+  Source Protection Area (SPA) boundaries have been located on RF 24000 [HTML_REMOVED] RF 25000 scale USGS topographic maps by Water Supply Division (DEC) and VT Dept of Health (historical) personnel.
+description: |
+  Source Protection Area (SPA) boundaries have been located on RF 24000 [HTML_REMOVED] RF 25000 scale USGS topographic maps by Water Supply Division (DEC) and VT Dept of Health (historical) personnel. Buffered SPAs are based on the point location of the water source(s) Refer to the SOURCE coverage documentation file for information on data sources used.
+license: <FILE LOCATION>
+contributor:
+  name: Contributor
+  email: no-reply@email.com
+  url: http://www.cognitivescale.com
+assets:
+  - type: dataset
+    name: Surfacewater Source Protection Areas
+gitUrl: https://github.com/lkrishna-cs/XPA-Hub/tree/master/surfacewater-source-protection-areas-spas

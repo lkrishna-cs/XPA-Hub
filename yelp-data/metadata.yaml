@@ -1,0 +1,17 @@
+version: hub/v1alpha
+kind: installable
+name: Yelp Data
+image: logo.png
+summary: |
+  Listing of geocoded businesses, inspections for those businesses, and health violations for those businesses,  used as a feed to Yelp.
+description: |
+  Listing of geocoded businesses, inspections for those businesses, and health violations for those businesses,  used as a feed to Yelp.  All files are csv files. Includes the YelpFiles.zip compressed file on this posting for businesses, inspections, and violations.
+license: <FILE LOCATION>
+contributor:
+  name: Contributor
+  email: no-reply@email.com
+  url: http://www.cognitivescale.com
+assets:
+  - type: dataset
+    name: Yelp Data
+gitUrl: https://github.com/lkrishna-cs/XPA-Hub/tree/master/yelp-data

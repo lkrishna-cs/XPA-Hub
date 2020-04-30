@@ -1,0 +1,17 @@
+version: hub/v1alpha
+kind: installable
+name: Rodent Inspection
+image: logo.png
+summary: |
+  Dataset contains information on rat inspections.Rat Information Portal Data Release Notes April 20, 2015. The Rat Information Portal (RIP) is a web-based mapping application where users can view rat inspection data.
+description: |
+  Dataset contains information on rat inspections.Rat Information Portal Data Release Notes April 20, 2015. The Rat Information Portal (RIP) is a web-based mapping application where users can view rat inspection data.
+license: <FILE LOCATION>
+contributor:
+  name: Contributor
+  email: no-reply@email.com
+  url: http://www.cognitivescale.com
+assets:
+  - type: dataset
+    name: Rodent Inspection
+gitUrl: https://github.com/lkrishna-cs/XPA-Hub/tree/master/rodent-inspection

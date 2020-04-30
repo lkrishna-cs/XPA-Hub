@@ -1,0 +1,17 @@
+version: hub/v1alpha
+kind: installable
+name: Food Scrap Generators
+image: logo.png
+summary: |
+  Here you will find Vermont businesses and institutions (such as restaurants, grocery stores, markets, hospitals, schools, food manufacturers, assisted living facilities, correctional facilities, and more) with the estimated tons of food scraps they might generate. 
+description: |
+  Here you will find Vermont businesses and institutions (such as restaurants, grocery stores, markets, hospitals, schools, food manufacturers, assisted living facilities, correctional facilities, and more) with the estimated tons of food scraps they might generate.
+license: <FILE LOCATION>
+contributor:
+  name: Contributor
+  email: no-reply@email.com
+  url: http://www.cognitivescale.com
+assets:
+  - type: dataset
+    name: Food Scrap Generators
+gitUrl: https://github.com/lkrishna-cs/XPA-Hub/tree/master/food-scrap-generators

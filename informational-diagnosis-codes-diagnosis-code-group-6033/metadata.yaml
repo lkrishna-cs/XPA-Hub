@@ -1,0 +1,17 @@
+version: hub/v1alpha
+kind: installable
+name: Informational Diagnosis Codes - Diagnosis Code Group - 6033
+image: logo.png
+summary: |
+  Codes in this group are not on the Prioritized List. They are considered informational only. They may be needed for reporting purposes but they are not eligible for reimbursement by OHP's FFS program.
+description: |
+  Codes in this group are not on the Prioritized List. They are considered informational only. They may be needed for reporting purposes but they are not eligible for reimbursement by OHP's FFS program.
+license: <FILE LOCATION>
+contributor:
+  name: Contributor
+  email: no-reply@email.com
+  url: http://www.cognitivescale.com
+assets:
+  - type: dataset
+    name: Informational Diagnosis Codes - Diagnosis Code Group - 6033
+gitUrl: https://github.com/lkrishna-cs/XPA-Hub/tree/master/informational-diagnosis-codes-diagnosis-code-group-6033

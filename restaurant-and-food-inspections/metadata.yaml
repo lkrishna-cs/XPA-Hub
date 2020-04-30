@@ -1,0 +1,17 @@
+version: hub/v1alpha
+kind: installable
+name: Restaurant And Food Inspections
+image: logo.png
+summary: |
+  The Municipality of Anchorage provides open data to residents via the open data portal.
+description: |
+  The Municipality of Anchorage provides open data to residents via the open data portal.
+license: <FILE LOCATION>
+contributor:
+  name: Contributor
+  email: no-reply@email.com
+  url: http://www.cognitivescale.com
+assets:
+  - type: dataset
+    name: Restaurant And Food Inspections
+gitUrl: https://github.com/lkrishna-cs/XPA-Hub/tree/master/restaurant-and-food-inspections

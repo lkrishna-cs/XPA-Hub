@@ -1,0 +1,17 @@
+version: hub/v1alpha
+kind: installable
+name: food-inspection
+image: logo.png
+summary: |
+  The Licensure & Regulatory Services Program inspects all licensed retail food establishments in Montgomery County for a variety of reasons (e.g. obtaining a permit, regular check-ups, or in response to complaints.) Included in this overall surveillance are two types of inspections that are conducted on a routine basis. 
+description: |
+  The Licensure & Regulatory Services Program inspects all licensed retail food establishments in Montgomery County for a variety of reasons (e.g. obtaining a permit, regular check-ups, or in response to complaints.) Included in this overall surveillance are two types of inspections that are conducted on a routine basis. 
+license: <FILE LOCATION>
+contributor:
+  name: Contributor
+  email: no-reply@email.com
+  url: http://www.cognitivescale.com
+assets:
+  - type: dataset
+    name: food-inspection
+gitUrl: https://github.com/lkrishna-cs/XPA-Hub/tree/master/food-inspection-475fc

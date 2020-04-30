@@ -1,0 +1,18 @@
+version: hub/v1alpha
+kind: installable
+name: Psyckes Antipsychotic Polypharmacy Quality Indicators
+image: logo.png
+summary: |
+  The PSYCKES antipsychotic polypharmacy measure data set provides a count of how many New York State Medicaid enrollees are eligible to be included in the measure (individuals prescribed any antipsychotic medication), the count of how many enrollees meet criteria for the flag (individuals prescribed two or more [2AP] or three or more [3AP] antipsychotic medications concurrently for more than 90 days), and the percentage of enrollees flagged.
+description: |
+  The PSYCKES antipsychotic polypharmacy measure data set provides a count of how many New York State Medicaid enrollees are eligible to be included in the measure (individuals prescribed any antipsychotic medication), the count of how many enrollees meet criteria for the flag (individuals prescribed two or more [2AP] or three or more [3AP] antipsychotic medications concurrently for more than 90 days), and the percentage of enrollees flagged.
+license: <FILE LOCATION>
+contributor:
+  name: Contributor
+  email: no-reply@email.com
+  url: http://www.cognitivescale.com
+assets:
+  - type: dataset
+    name: Psyckes Antipsychotic Polypharmacy Quality Indicators
+  - location: data/NCHS_-_Age-adjusted_Death_Rates_for_Selected_Major_Causes_of_Death.csv
+gitUrl: https://github.com/lkrishna-cs/XPA-Hub/tree/master/psyckes-antipsychotic-polypharmacy-quality-indicators

@@ -1,0 +1,17 @@
+version: hub/v1alpha
+kind: installable
+name: Restaurant And Market Health Inspections
+image: logo.png
+summary: |
+  This dataset contains Environmental Health Inspection Results for Restaurants and Markets in the City of Los Angeles. 
+description: |
+  This dataset contains Environmental Health Inspection Results for Restaurants and Markets in the City of Los Angeles. Los Angeles County Environmental Health is responsible for inspections and enforcement activities for all unincorporated areas and 85 of the 88 cities in the County. 
+license: <FILE LOCATION>
+contributor:
+  name: Contributor
+  email: no-reply@email.com
+  url: http://www.cognitivescale.com
+assets:
+  - type: dataset
+    name: Restaurant And Market Health Inspections
+gitUrl: https://github.com/lkrishna-cs/XPA-Hub/tree/master/restaurant-and-market-health-inspections

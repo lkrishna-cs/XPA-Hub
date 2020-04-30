@@ -1,0 +1,71 @@
+scan:
+  scan_id: b99f5b12b988
+  evaluation_type: atx
+  started: '2020-03-25T19:16:34'
+  ended: '2020-03-26T00:49:14'
+  name: Baseline evaluation of datasets
+  description: This evaluation provides the efficacy of the dataset against 6 dimensions
+    as well as a Trust Index score
+atx: '78.3'
+components_measured:
+- completeness
+- accuracy
+- provenance
+- currentness
+- confidentiality
+- consistency
+component_scores:
+  completness: 100
+  accuracy: 50
+  provenance: 75
+  currentness: 95
+  confidentiality: 100
+  consistency: 50
+dataset-facts:
+    title:  This dataset is intended to be a synthetic dataset around healthcare members from a payer's perspective.
+    metadata:
+        filename: "/data/member.csv"
+        format: csv
+        url: https://github.com/lkrishna-cs/XPA-Hub/tree/master/Anthem/data
+        domain: Healthcare
+        keywords: Anthem, Member, Claims 
+        usecases:
+        - Intelligent Interventions for Healthcare Member
+        type: Tabular
+        rows: 10000
+        columns: 13
+        missing: ''
+        license: Copyright 2020 Cognitive Scale
+        1st-release: Feb-2020
+        updated_date: 4/19/2020
+        frequency_of_update: Daily
+        Range:
+        from: 2/2/20
+        to: ''
+        description:  This dataset is intended to be a synthetic dataset around healthcare members from a payer's perspective.
+provenance:
+    source:
+        name: Cognitive Scale
+        url: https://www.cognitivescale.com/
+        email: lkrishna@cognitivescale.com
+variables:
+    member_id: Membership Identifier
+    membership_effective_dt: Effective begin date of the membership
+    membership_end_dt: Effective end date of the membership
+    member_sequence_number: Member's Sequence number in a family
+    membership_status_cd: Membership status
+    member_address_zip: Zip code of member's address
+    member_first_name: Member's first name
+    member_middle_initial: Member's middle Initial
+    member_last_name: Member's last name
+    member_birth_dt: Member's date of birth
+    member_gender_cd: Member's gender
+    member_pcp_auto_assign_ind: Auto assigned PCP Indicator
+    contract_group_identifier: Contract Group for the member's plan
+    claimids: List of claims
+statistic:
+    Ordinal:
+    Nominal:
+    Continious:
+    Discrete:
+status: Completed
