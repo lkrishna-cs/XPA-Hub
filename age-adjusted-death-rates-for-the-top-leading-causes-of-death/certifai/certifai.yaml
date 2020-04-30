@@ -53,13 +53,13 @@ provenance:
     name: 'Centers for Disease Control and Prevention'
     url: 'https://data.cdc.gov/api/views/bi63-dtpu'
     email: 'nchsdata@cdc.gov'
-variables:
+fields:
   Year: Year
   Cause: Causes of Death
-  Age Adjusted Death Rate: Age Adjusted Death Rate
+  Age_Adjusted_Death_Rate: Age Adjusted Death Rate
 statistic:
   Ordinal:
   Nominal:
-  Continious:
+  Continuous:
   Discrete:
 status: Completed
