@@ -52,7 +52,7 @@ provenance:
         name:
         url:
         email:
-variables:
+fields:
     V1: key to idenify row
     location_name: Name of the state
     date: Date
