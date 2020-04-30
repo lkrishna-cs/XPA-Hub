@@ -5,7 +5,7 @@ scan:
   ended: "2020-03-26T00:49:14"
   name: Baseline evaluation of datasets
   description: This evaluation compares the robustness, accuracy and explanations for 4 candidate models. Fairness is not applicable to this use case.
-atx: "78.3"
+atx: "72.5"
 components_measured:
   - completeness
   - accuracy
@@ -14,12 +14,12 @@ components_measured:
   - confidentiality
   - consistency
 component_scores:
-  completness: 100
+  completness: 40
   accuracy: 50
-  provenance: 75
-  currentness: 95
+  provenance: 95
+  currentness: 60
   confidentiality: 100
-  consistency: 50
+  consistency: 100
 dataset-facts:
   title: NCHS - Leading Causes of Death - United States
   metadata:
