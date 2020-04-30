@@ -6,6 +6,7 @@ scan:
   name: CV19 Vulnerability Index - Risk Prediction Model
   description:
     This evaluation provides the efficacy of the dataset against 4 dimensions as well as a Trust Index score
+atx: "82.325"
 model-facts:
   title: CV19 Vulnerability Index - Risk Prediction Model
   metadata:
