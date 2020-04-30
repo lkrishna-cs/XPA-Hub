@@ -3,7 +3,7 @@ scan:
     evaluation_type: atx
     started: "2020-03-25T19:16:34"
     ended: "2020-03-26T00:49:14"
-    name: Baseline evaluation of datasets
+    name: Provisional Covid-19 Death Counts by State
     description: This evaluation compares the robustness, accuracy and explanations for 4 candidate models. Fairness is not applicable to this use case.
 atx: "68.3"
 components_measured:

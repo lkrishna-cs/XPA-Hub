@@ -3,7 +3,7 @@ scan:
   evaluation_type: atx
   started: "2020-04-29T19:16:34"
   ended: "2020-04-29T00:49:14"
-  name: Baseline evaluation of CV19 Prediction Model
+  name: CV19 Vulnerability Index - Risk Prediction Model
   description:
     This evaluation provides the efficacy of the dataset against 4 dimensions as well as a Trust Index score
 atx: "82.325"

@@ -3,7 +3,7 @@ scan:
   evaluation_type: atx
   started: '2020-03-25T19:16:34'
   ended: '2020-03-26T00:49:14'
-  name: Baseline evaluation of datasets
+  name: Synthetic dataset for healthcare members
   description: This evaluation provides the efficacy of the dataset against 6 dimensions as well as a Trust Index score
 atx: "60.0"
 components_measured:
@@ -21,7 +21,7 @@ component_scores:
   confidentiality: 100
   consistency: 50
 dataset-facts:
-    title:  This dataset is intended to be a synthetic dataset around healthcare members from a payer's perspective.
+    title:  Synthetic dataset for healthcare members
     metadata:
       filename: "/data/member.csv"
       format: csv
