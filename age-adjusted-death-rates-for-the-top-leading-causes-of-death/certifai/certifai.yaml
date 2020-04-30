@@ -20,7 +20,7 @@ component_scores:
   currentness: 95
   confidentiality: 100
   consistency: 50
-dataset_facts:
+dataset-facts:
   title: NCHS - Leading Causes of Death - United States
   metadata:
     filename: NCHS_-_Age-adjusted_Death_Rates_for_Selected_Major_Causes_of_Death.csv
