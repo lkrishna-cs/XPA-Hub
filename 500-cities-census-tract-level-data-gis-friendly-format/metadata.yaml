@@ -1,0 +1,17 @@
+version: hub/v1alpha
+kind: installable
+name: 500 Cities Census Tract Level Data GIS Friendly Format
+image: logo.png
+summary: |
+  500 Cities Census Tract Level Data GIS Friendly Format
+description: |
+  500 cities project census tract-level data in GIS-friendly format can be joined with census tract spatial data (https://chronicdata.cdc.gov/500-Cities/500-Cities-Census-Tract-Boundarie...) in a geographic information system (GIS) to produce maps of 27 measures at the census tract level. There are 7 measures (all teeth lost, dental visits, mammograms, Pap tests, colorectal cancer screening, core preventive services among older adults, and sleep less than 7 hours) in this release
+license: <FILE LOCATION>
+contributor:
+  name: Contributor
+  email: no-reply@email.com
+  url: http://www.cognitivescale.com
+assets:
+  - type: dataset
+    name: 500 Cities Census Tract Level Data GIS Friendly Format
+  - location: cos://us-east/trusted-ai-hub-healthcare/500_Cities__Census_Tract-level_Data__GIS_Friendly_Format___2019_release.csv
