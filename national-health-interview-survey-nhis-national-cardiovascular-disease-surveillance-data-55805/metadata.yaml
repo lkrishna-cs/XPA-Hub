@@ -1,0 +1,17 @@
+version: hub/v1alpha
+kind: installable
+name: National Health Interview Survey NHIS - National Cardiovascular Disease Surveillance
+image: logo.png
+summary: |
+  2001 forward. The National Health Interview Survey (NHIS) has monitored the health of the nation since 1957. NHIS data on a broad range of health topics are collected through personal household interviews.
+description: |
+  2001 forward. The National Health Interview Survey (NHIS) has monitored the health of the nation since 1957. NHIS data on a broad range of health topics are collected through personal household interviews.
+license: <FILE LOCATION>
+contributor:
+  name: Contributor
+  email: no-reply@email.com
+  url: http://www.cognitivescale.com
+assets:
+  - type: dataset
+    name: National Health Interview Survey NHIS - National Cardiovascular Disease Surveillance
+    location: cos://us-east/trusted-ai-hub-healthcare/National_Health_and_Nutrition_Examination_Survey__NHANES__-_National_Cardiovascular_Disease_Surveillance_System.csv

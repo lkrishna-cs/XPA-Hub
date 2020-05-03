@@ -1,0 +1,17 @@
+version: hub/v1alpha
+kind: installable
+name: Hospital Readmission Reduction
+image: logo.png
+summary: |
+  Hospital Readmission Reduction
+description: |
+  In October 2012, CMS began reducing Medicare payments for Inpatient Prospective Payment System hospitals with excess readmissions. Excess readmissions are measured by a ratio, by dividing a hospital’s number of “predicted” 30-day readmissions for heart attack, heart failure, and pneumonia by the number that would be “expected,” based on an average hospital with similar patients.
+license: <FILE LOCATION>
+contributor:
+  name: Contributor
+  email: no-reply@email.com
+  url: http://www.cognitivescale.com
+assets:
+  - type: dataset
+    name: Hospital Readmission Reduction
+    location: cos://us-east/trusted-ai-hub-healthcare/Hospital_Readmissions_Reduction_Program.csv

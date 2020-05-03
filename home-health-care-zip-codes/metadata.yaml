@@ -1,0 +1,18 @@
+version: hub/v1alpha
+kind: installable
+name: Home Health Care Zip Codes
+image: logo.png
+summary: |
+  Home Health Care - Zip Codes
+description: |
+  Home Health Care - Zip Codes
+license: <FILE LOCATION>
+contributor:
+  name: Contributor
+  email: no-reply@email.com
+  url: http://www.cognitivescale.com
+assets:
+  - type: dataset
+    name: Home Health Care Zip Codes
+    location: cos://us-east/trusted-ai-hub-healthcare/Home_Health_Care_-_Zip_Codes.csv
+gitUrl: https://github.com/lkrishna-cs/XPA-Hub/tree/master/home-health-care-zip-codes

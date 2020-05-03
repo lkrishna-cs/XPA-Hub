@@ -1,0 +1,17 @@
+version: hub/v1alpha
+kind: installable
+name: NCHS Potentially Excess Deaths From The Five Leading Causes Of Death
+image: logo.png
+summary: |
+  MMWR Surveillance Summary 66 (No. SS-1):1-8 found that nonmetropolitan areas have significant numbers of potentially excess deaths from the five leading causes of death.
+description: |
+  MMWR Surveillance Summary 66 (No. SS-1):1-8 found that nonmetropolitan areas have significant numbers of potentially excess deaths from the five leading causes of death. These figures accompany this report by presenting information on potentially excess deaths in nonmetropolitan and metropolitan areas at the state level. They also add additional years of data and options for selecting different age ranges and benchmarks.
+license: <FILE LOCATION>
+contributor:
+  name: Contributor
+  email: no-reply@email.com
+  url: http://www.cognitivescale.com
+assets:
+  - type: dataset
+    name: NCHS Potentially Excess Deaths From The Five Leading Causes Of Death
+    location: cos://us-east/trusted-ai-hub-healthcare/NCHS_-_Potentially_Excess_Deaths_from_the_Five_Leading_Causes_of_Death.csv

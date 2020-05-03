@@ -1,0 +1,17 @@
+version: hub/v1alpha
+kind: installable
+name: Behavioral Risk Factors -  Vision Amp Eye Health
+image: logo.png
+summary: |
+  Behavioral Risk Factors -  Vision Amp Eye Health
+description: |
+  This dataset includes data from the retired BRFSS Vision Module. From 2005-2011 the BRFSS employed a ten question vision module regarding vision impairment, access and utilization of eye care, and self-reported eye diseases. In 2013 and subsequently, one question in the core of BRFSS asks about vision: “Are you blind or do you have serious difficulty seeing, even when wearing glasses?” The latest data for this core question can be found in the Vision and Eye Health Surveillance System (VEHSS). VEHSS is intended to provide population estimates of vision loss function, eye diseases, health disparities, as well as barriers and facilitators to access to vision and eye care
+license: <FILE LOCATION>
+contributor:
+  name: Contributor
+  email: no-reply@email.com
+  url: http://www.cognitivescale.com
+assets:
+  - type: dataset
+    name: Behavioral Risk Factors -  Vision Amp Eye Health
+  - location: cos://us-east/trusted-ai-hub-healthcare/BRFSS_Vision_Module_Data___Vision___Eye_Health.csv

@@ -1,0 +1,17 @@
+version: hub/v1alpha
+kind: installable
+name: National Cardiovascular Disease Surveillance Data
+image: logo.png
+summary: |
+  2000 forward. NVSS is a secure, web-based data management system that collects and disseminates the Nation's official vital statistics. Indicators from this data source have been computed by personnel in CDC's Division for Heart Disease and Stroke Prevention (DHDSP).
+description: |
+  2000 forward. NVSS is a secure, web-based data management system that collects and disseminates the Nation's official vital statistics. Indicators from this data source have been computed by personnel in CDC's Division for Heart Disease and Stroke Prevention (DHDSP). This is one of the datasets provided by the National Cardiovascular Disease Surveillance System. 
+license: <FILE LOCATION>
+contributor:
+  name: Contributor
+  email: no-reply@email.com
+  url: http://www.cognitivescale.com
+assets:
+  - type: dataset
+    name: National Vital Statistics System NVSS Mortality Data
+    location: cos://us-east/trusted-ai-hub-healthcare/National_Vital_Statistics_System__NVSS__-_National_Cardiovascular_Disease_Surveillance_Data.csv

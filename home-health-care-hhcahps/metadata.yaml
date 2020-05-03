@@ -1,0 +1,17 @@
+version: hub/v1alpha
+kind: installable
+name: Home Health Care - National Data
+image: logo.png
+summary: |
+  Home Health Care - National Data
+description: |
+  The national averages for critical quality measures of Home Health Agencies.
+license: <FILE LOCATION>
+contributor:
+  name: Contributor
+  email: no-reply@email.com
+  url: http://www.cognitivescale.com
+assets:
+  - type: dataset
+    name: Home Health Care HHC AHPS
+    location: cos://us-east/trusted-ai-hub-healthcare/Home_Health_Care_-_National_Data.csv

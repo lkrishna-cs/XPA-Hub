@@ -1,0 +1,17 @@
+version: hub/v1alpha
+kind: installable
+name: National Health And Nutrition Examination Survey
+image: logo.png
+summary: |
+  1999-2000 forward. The National Health and Nutrition Examination Survey (NHANES) is a program of studies designed to assess the health and nutritional status of adults and children in the United States.
+description: |
+  1999-2000 forward. The National Health and Nutrition Examination Survey (NHANES) is a program of studies designed to assess the health and nutritional status of adults and children in the United States.
+license: <FILE LOCATION>
+contributor:
+  name: Contributor
+  email: no-reply@email.com
+  url: http://www.cognitivescale.com
+assets:
+  - type: dataset
+    name: National Health And Nutrition Examination Survey
+    location: cos://us-east/trusted-ai-hub-healthcare/National_Health_and_Nutrition_Examination_Survey__NHANES__-_National_Cardiovascular_Disease_Surveillance_System.csv
