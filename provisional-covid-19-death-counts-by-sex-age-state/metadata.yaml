@@ -1,0 +1,15 @@
+version: hub/v1alpha
+kind: installable
+name: Provisional COVID-19 Death Counts in the United States by Sex, Age and State
+image: logo.png
+summary: Deaths involving coronavirus disease 2019 (COVID-19), pneumonia, and influenza reported to NCHS by sex and age group and state.
+description: Deaths involving coronavirus disease 2019 (COVID-19), pneumonia, and influenza reported to NCHS by sex and age group and state.
+license: <FILE LOCATION>
+contributor:
+  name: Contributor
+  email: no-reply@email.com
+  url: http://www.cognitivescale.com
+assets:
+  - type: dataset
+    name: Provisional Death Counts for Coronavirus Disease By County
+    location: data/Provisional_COVID-19_Death_Counts_by_Sex__Age__and_State.csv

@@ -3,9 +3,9 @@ kind: installable
 name: National Survey Of SSI Children And Families NSCF
 image: logo.png
 summary: |
-  The NSCF collected data on the health status and functional limitations, health care utilization, health insurance coverage, receipt of services, SSI experience, socioeconomic status of children's households, and housing characteristics of over 8,000 children who were receiving, had received, or were applying for SSI. 
+  The NSCF collected data on the health status and functional limitations, health care utilization, health insurance coverage, receipt of services, SSI experience, socioeconomic status of children's households, and housing characteristics of over 8,000 children. 
 description: |
-  The NSCF collected data on the health status and functional limitations, health care utilization, health insurance coverage, receipt of services, SSI experience, socioeconomic status of children's households, and housing characteristics of over 8,000 children who were receiving, had received, or were applying for SSI.
+  The NSCF collected data on the health status and functional limitations, health care utilization, health insurance coverage, receipt of services, SSI experience, socioeconomic status of children's households, and housing characteristics of over 8,000 children.
 license: <FILE LOCATION>
 contributor:
   name: Contributor
