@@ -1,0 +1,16 @@
+version: hub/v1alpha
+kind: installable
+name: Excess Deaths Associated with COVID-19
+image: logo.png
+summary: Excess Deaths Associated with COVID-19
+description: 
+Estimates of excess deaths can provide information about the burden of mortality potentially related to COVID-19, beyond the number of deaths that are directly attributed to COVID-19.
+license: <FILE LOCATION>
+contributor:
+  name: Contributor
+  email: no-reply@email.com
+  url: http://www.cognitivescale.com
+assets:
+  - type: dataset
+    name: Provisional Death Counts for Coronavirus Disease By County
+    location: data/Excess_Deaths_Associated_with_COVID-19.csv
